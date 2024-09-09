@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Monoton&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Glitch&family=Silkscreen:wght@400;700&family=Splash&display=swap');
+/* 
+font-family: "Rubik Glitch", system-ui;
+font-family: "Silkscreen", sans-serif;
+font-family: "Splash", cursive;
+font-family: "Dancing Script", cursive;
+font-family: "Jost", sans-serif;
+font-family: "Permanent Marker", cursive;
+font-family: "Cormorant Garamond", serif;
+font-family: "Kaushan Script", cursive;
+font-family: "Playfair Display", serif; 
+font-family: "Monoton", sans-serif;
+font-family: 'Times New Roman', Times, serif;
+*/
+
+::-webkit-scrollbar {
+    width: 0.75rem;
+    height: auto;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secondary);
+    border-radius: 100vw;
+    margin-block: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bright);
+    border: 0.1rem solid var(--primary);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+    border: 0.1rem solid var(--white);
+}

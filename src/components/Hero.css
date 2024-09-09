@@ -1,0 +1,218 @@
+.section-hero {
+    background-color: var(--bg);
+    font-weight: 400;
+    line-height: 1;
+    padding-top: clamp(5rem, 20vh, 10rem);
+    padding-bottom: clamp(5rem, 20vh, 10rem);
+}
+
+.heros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 3rem;
+    margin-inline: 3rem;
+    align-items: center;
+}
+
+.heading-primary {
+    color: var(--bright);
+    font-family: "Jost", sans-serif;
+    /* font-family: "Cormorant Garamond", serif; */
+    /* font-family: "Playfair Display", serif; */
+    font-size: clamp(3rem, 4vw, 5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    padding-bottom: 1rem;
+    text-align: start;
+}
+
+.heading-primary strong {
+    color: var(--text);
+}
+
+.hero-description {
+    color: var(--white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 2.5rem;
+}
+
+.hero-img-box {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.hero-img {
+    width: clamp(40rem, 100%, 80rem);
+    margin-left: 2vw;
+    /* border-radius: 50%; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 1); */
+}
+
+.enroll {
+    color: var(--white);
+    background: var(--highlight);
+    border: solid 2px var(--secondary);
+    border-radius: 30px;
+    /* width: clamp(10.5rem, 14vw, 17.5rem);
+     aspect-ratio: 3/1; */
+    font-family: "Kaushan Script", cursive;
+    font-weight: bold;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    margin-left: -0.5rem;
+    padding: 8px 24px;
+    text-align: center;
+    align-content: center;
+}
+
+.enroll:hover {
+    cursor: pointer;
+    color: var(--secondary);
+    background: var(--bright);
+    border: solid 2px var(--white);
+}
+
+@media (max-width: 1080px) {
+    .section-hero {
+        padding-top: clamp(5rem, 15vh, 10rem);
+        padding-bottom: clamp(5rem, 20vh, 10rem);
+    }
+
+    .heros {
+        gap: 0 2.5rem;
+        margin-inline: 2.5rem;
+    }
+
+    .hero-text-box {
+        width: 46vw;
+    }
+
+    .heading-primary {
+        font-size: clamp(2rem, 5vw, 4rem);
+    }
+
+    .hero-description {
+        font-size: clamp(1.25rem, 2.5vw, 3rem);
+    }
+
+    .hero-img-box {
+        margin: 0;
+        width: 40vw;
+    }
+
+    .hero-img {
+        margin: 0;
+    }
+
+    .enroll {
+        margin-left: -0.5rem;
+        font-size: clamp(1.5rem, 2.5vw, 3rem);
+    }
+}
+
+@media (max-width: 798px) {
+    .section-hero {
+        padding-top: clamp(4rem, 8vh, 10rem);
+        padding-bottom: 5vh;
+    }
+
+    .heros {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        text-align: center;
+    }
+
+    .hero-text-box {
+        padding: 0;
+        margin: 0;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100vw;
+    }
+
+    .heading-primary {
+        font-size: clamp(2rem, 7vw, 2.5rem);
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .hero-description {
+        padding-inline: 1rem;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    .enroll {
+        margin: 0;
+        font-size: clamp(1.5rem, 2vw, 2.5rem);
+    }
+
+    .hero-img-box {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 75vw;
+    }
+
+    .hero-img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .section-hero {
+        padding-top: clamp(4rem, 8vh, 10rem);
+        padding-bottom: 5vh;
+    }
+
+    .heros {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        text-align: center;
+    }
+
+    .hero-text-box {
+        padding: 0;
+        margin: 0;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .heading-primary {
+        font-size: clamp(1.75rem, 8vw, 2.5rem);
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .hero-description {
+        padding-inline: 1rem;
+        font-size: clamp(1.25rem, 6vw, 1.75rem);
+    }
+
+    .enroll {
+        margin: 0;
+        font-size: clamp(1.5rem, 2vw, 2.5rem);
+    }
+
+    .hero-img-box {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .hero-img {
+        width: 75vw;
+        margin: 0;
+        padding: 0;
+    }
+}

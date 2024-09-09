@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
+
+:root {
+    --m: 2rem;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+footer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+
+    padding: 1rem;
+
+    background: #d4d4d4;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+footer p,
+footer p a {
+    font-style: italic;
+    font-weight: 500;
+    font-size: calc(0.55 * var(--m));
+    margin: 0;
+}
+
+footer h1 {
+    font-family: "Jost", sans-serif;
+    color: var(--bright);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc(0.8 * var(--m));
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+footer h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--black);
+    font-weight: bold;
+    font-size: calc(0.5 * var(--m));
+    margin: 0;
+    margin-left: 0.4rem;
+    padding-top: 1rem;
+}
+
+.colx {
+    display: flex;
+    gap: 500px;
+}
+
+footer .col {
+    font-family: "Cormorant Garamond", serif;
+    color: var(--white);
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: calc(0.3 * var(--m)) calc(0.8 * var(--m));
+}
+
+footer .col p {
+    filter: brightness(100%);
+}
+
+footer .col2,
+footer .col3 {
+    background-color: var(--primary);
+    filter: contrast(150%);
+    border-radius: calc(0.5 * var(--m));
+    padding: 3rem;
+}
+
+#footer_logo {
+    height: calc(4 * var(--m));
+    filter: brightness(50%);
+    margin-left: 1.5rem;
+}
+
+footer img {
+    height: calc(0.7 * var(--m));
+    object-fit: cover;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 1080px) {
+    :root {
+        --m: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    footer h3 {
+        margin: 0;
+    }
+
+    footer .social {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    footer .col {
+        width: 90vw;
+        min-width: max-content;
+        padding: 0.5rem;
+    }
+}

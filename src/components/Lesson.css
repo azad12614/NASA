@@ -1,0 +1,146 @@
+.Lesson {
+    width: 60vw;
+    height: max-content;
+    margin-block: 2rem;
+    margin-inline: 20vw;
+    text-align: start;
+}
+
+.Lesson h1 {
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    color: var(--bright);
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    padding-bottom: 0.5rem;
+    /* text-align: center; */
+}
+
+.Lesson p {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--black);
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding-bottom: 0.5rem;
+}
+
+.Lesson p strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Lesson .ca13 {
+    float: left;
+    width: 18rem;
+    height: 8rem;
+
+    shape-outside: url(../assets/ca13.png);
+    shape-margin: 0.6rem;
+}
+
+.Lesson .g13 {
+    float: right;
+    width: 16rem;
+    height: 10rem;
+
+    shape-outside: url(../assets/g13.png);
+    shape-margin: 0.1rem;
+    margin-top: 10rem;
+
+    display: none;
+}
+
+.box {
+    float: right;
+    max-width: 540px;
+    shape-outside: inset(10px 10px 10px 10px 10px);
+    margin: 1rem;
+    margin-top: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+a {
+    color: #575757;
+}
+
+a:hover {
+    color: #FD9644;
+    text-decoration: none;
+}
+
+.main {
+    color: #FD9644;
+    opacity: 0.2;
+    font-weight: 900;
+    margin-bottom: -0.8rem;
+}
+
+.neo-video-player {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 540px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px var(--black),
+        -5px -5px 20px var(--black);
+}
+
+
+@media (max-width: 1080px) {
+    .Lesson {
+        width: 80vw;
+        margin-inline: 10vw;
+    }
+
+    .Lesson .ca13 {
+        float: left;
+        margin-top: 2rem;
+    }
+
+    .Lesson .g13 {
+        display: block;
+        width: 16rem;
+        height: 10rem;
+        float: right;
+        margin-top: 4rem;
+    }
+
+    .box {
+        float: left;
+        margin: 1rem;
+        margin-top: 0rem;
+    }
+
+    .Lesson p {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 798px) {
+    .Lesson {
+        width: 88vw;
+        margin-inline: 6vw;
+    }
+
+    .Lesson .g13 {
+        float: right;
+        margin-top: 10rem;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .Lesson {
+        width: 94vw;
+        margin-inline: 3vw;
+    }
+
+    .box {
+        shape-outside: inset(100vw 56vw 100vw 56vw 10px);
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}

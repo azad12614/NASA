@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg: #3f7e44;
+    --primary: #234700;
+    --secondary: #132800;
+    --highlight: #278ecb;
+    --bright: #df8625;
+    --white: #eeeeee;
+    --black: #000000;
+    --red: #913030;
+    --accent: #6cd7a0;
+    --text: #fce8c0;
+    --shadow: rgba(0, 0, 0, 0.4);
+
+    /* numeric */
+    --default-padding: 15px;
+    --default-border-radius: 10px;
+    --default-font-size: 1rem;
+    --title-font-size: 1.5rem;
+    --default-hover-opacity: 0.7;
+    --default-transition-time: 0.15s;
+    --bar-accuracy-percent: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
