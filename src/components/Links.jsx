@@ -1,22 +1,22 @@
 import React from 'react'
-import "./Project.css"
-
+import { Link } from 'react-router-dom'
+import forum from "../assets/forum.png"
 import goal13 from "../assets/goal 13.png"
 import lesson from "../assets/lesson.png"
+import nasa from "../assets/nasa.png"
 import quiz from "../assets/quiz.png"
 import wll from "../assets/wll.png"
-import nasa from "../assets/nasa.png"
-import forum from "../assets/forum.png"
-import { Link } from 'react-router-dom'
+import "./Links.css"
 
-const Project = () => {
+const Links = () => {
     return (
-        <div class="project" id="Project">
+        <div class="links">
             <div class="info">
                 <div class="items">
                     <img src={goal13} alt="" />
                     <div class="dis">
-                        <a href="https://www.globalgoals.org/goals/13-climate-action/" target="">CLIMATE ACTION</a>
+                        {/* <a href="https://www.globalgoals.org/goals/13-climate-action/" target="">CLIMATE ACTION</a> */}
+                        <Link to='/Goal13'>CLIMATE ACTION</Link>
                         <span>Goal 13</span>
                         <p>Take Urgent Action T0 Combat Climate Change And Its Impacts.</p>
 
@@ -72,4 +72,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Links

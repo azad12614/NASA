@@ -7,7 +7,7 @@ import vdo from '../assets/video.mp4'
 
 const Lesson = () => {
     return (
-        <div class="Lesson" id="About">
+        <div class="lesson">
             <h1>About Lesson</h1>
             <div class="Info">
                 <div class="box text-center" dir="ltr">

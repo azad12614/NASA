@@ -1,4 +1,4 @@
-.Lesson {
+.lesson {
     width: 60vw;
     height: max-content;
     margin-block: 2rem;
@@ -6,7 +6,7 @@
     text-align: start;
 }
 
-.Lesson h1 {
+.lesson h1 {
     font-family: "Jost", sans-serif;
     font-weight: bold;
     color: var(--bright);
@@ -18,20 +18,21 @@
     /* text-align: center; */
 }
 
-.Lesson p {
+.lesson p {
     font-family: 'Times New Roman', Times, serif;
     color: var(--black);
     font-size: 1.25rem;
     line-height: 1.2;
     padding-bottom: 0.5rem;
+    text-align: justify;
 }
 
-.Lesson p strong {
+.lesson p strong {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.Lesson .ca13 {
+.lesson .ca13 {
     float: left;
     width: 18rem;
     height: 8rem;
@@ -40,14 +41,14 @@
     shape-margin: 0.6rem;
 }
 
-.Lesson .g13 {
+.lesson .g13 {
     float: right;
     width: 16rem;
     height: 10rem;
 
     shape-outside: url(../assets/g13.png);
-    shape-margin: 0.1rem;
-    margin-top: 10rem;
+    shape-margin: 0.6rem;
+    margin-left: 1rem;
 
     display: none;
 }
@@ -90,22 +91,22 @@ a:hover {
 
 
 @media (max-width: 1080px) {
-    .Lesson {
+    .lesson {
         width: 80vw;
         margin-inline: 10vw;
     }
 
-    .Lesson .ca13 {
+    .lesson .ca13 {
         float: left;
         margin-top: 2rem;
     }
 
-    .Lesson .g13 {
+    .lesson .g13 {
         display: block;
         width: 16rem;
         height: 10rem;
         float: right;
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 
     .box {
@@ -114,18 +115,18 @@ a:hover {
         margin-top: 0rem;
     }
 
-    .Lesson p {
+    .lesson p {
         padding-top: 4rem;
     }
 }
 
 @media (max-width: 798px) {
-    .Lesson {
+    .lesson {
         width: 88vw;
         margin-inline: 6vw;
     }
 
-    .Lesson .g13 {
+    .lesson .g13 {
         float: right;
         margin-top: 10rem;
     }
@@ -133,7 +134,7 @@ a:hover {
 
 
 @media (max-width: 520px) {
-    .Lesson {
+    .lesson {
         width: 94vw;
         margin-inline: 3vw;
     }

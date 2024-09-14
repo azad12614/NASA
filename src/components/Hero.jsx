@@ -2,10 +2,10 @@ import CA from "../assets/climate_action.png"
 import "./Hero.css";
 
 
-function Heros() {
+function Hero() {
     return (
         <>
-            <section class="section-hero" id="Hero">
+            <section class="hero">
                 <div class="heros">
                     <div class="hero-text-box">
                         <h1 class="heading-primary">
@@ -31,4 +31,4 @@ function Heros() {
     );
 }
 
-export default Heros;  
+export default Hero;  

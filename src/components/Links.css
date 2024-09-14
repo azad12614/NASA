@@ -12,12 +12,12 @@
     }
 }
 
-.project {
+.links {
     padding-top: 2rem;
     background-color: var(--bg);
 }
 
-.project .info {
+.links .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: space-evenly;
@@ -27,7 +27,7 @@
     padding-block: 1.5rem;
 }
 
-.project .info .items {
+.links .info .items {
     display: grid;
     grid-template-columns: 40% 60%;
     padding: 0.5rem;
@@ -44,28 +44,29 @@
     border-radius: 20px;
 }
 
-.project .info .items:nth-child(2n) {
+.links .info .items:nth-child(2n) {
     grid-template-columns: 60% 40%;
 
 }
 
-.project .info .items:hover {
+.links .info .items:hover {
     box-shadow: 10px 10px 10px #00000090 inset, -1px -1px 10px #00000045 inset;
 }
 
-.project .info .items img {
+.links .info .items img {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 10%;
     align-self: center;
 }
 
-.project .dis {
+.links .dis {
     text-align: center;
     margin-block: auto;
 }
 
-.project .dis a {
+.links .dis a,
+.links .dis Link {
     font-family: "Playfair Display", serif;
     text-decoration: none;
     color: var(--primary);
@@ -78,12 +79,12 @@
     line-height: 1.2;
 }
 
-.project .dis a:hover {
+.links .dis a:hover {
     color: var(--secondary);
     text-decoration: underline wavy var(--secondary);
 }
 
-.project .dis span {
+.links .dis span {
     font-family: "Jost", sans-serif;
     color: var(--bright);
     display: block;
@@ -94,13 +95,13 @@
     line-height: 1.1;
 }
 
-.project .dis span:nth-of-type(2) {
+.links .dis span:nth-of-type(2) {
     color: var(--black);
     font-size: 2rem;
     font-style: oblique;
 }
 
-.project .dis p {
+.links .dis p {
     font-family: 'Times New Roman', Times, serif;
     color: var(--black);
     font-size: 1.75rem;
@@ -111,35 +112,35 @@
 
 @media (max-width: 1080px) {
 
-    .project .info {
+    .links .info {
         grid-template-columns: auto;
         align-content: space-evenly;
         width: clamp(30rem, 70vw, 70rem);
         margin: auto;
     }
 
-    .project .info .items {
+    .links .info .items {
         padding: 0.75rem;
         padding-right: 1rem;
         gap: 0.75rem;
     }
 
-    .project .dis a {
+    .links .dis a {
         font-size: 2.5rem;
         margin-bottom: 0.3rem;
         line-height: 1.3;
     }
 
-    .project .dis span {
+    .links .dis span {
         font-size: 1.75rem;
         line-height: 1.2;
     }
 
-    .project .dis span:nth-of-type(2) {
+    .links .dis span:nth-of-type(2) {
         font-size: 1.95rem;
     }
 
-    .project .dis p {
+    .links .dis p {
         font-size: 1.5rem;
         line-height: 1.1;
     }
@@ -147,7 +148,7 @@
 
 @media (max-width: 798px) {
 
-    .project .info {
+    .links .info {
         display: grid;
         grid-template-columns: auto;
         align-content: space-evenly;
@@ -157,26 +158,26 @@
         padding-block: 1rem;
     }
 
-    .project .info .items {
+    .links .info .items {
         padding: 0.5rem;
         gap: 0.5rem;
     }
 
-    .project .dis a {
+    .links .dis a {
         font-size: 2rem;
         margin-bottom: 0.2rem;
         line-height: 1.3;
     }
 
-    .project .dis span {
+    .links .dis span {
         font-size: 1.5rem;
     }
 
-    .project .dis span:nth-of-type(2) {
+    .links .dis span:nth-of-type(2) {
         font-size: 1.7rem;
     }
 
-    .project .dis p {
+    .links .dis p {
         font-size: 1.25rem;
         line-height: 1.1;
     }
@@ -185,7 +186,7 @@
 
 @media (max-width: 520px) {
 
-    .project .info {
+    .links .info {
         display: grid;
         grid-template-columns: auto;
         align-content: space-evenly;
@@ -195,28 +196,28 @@
         padding-block: 0.5rem;
     }
 
-    .project .info .items {
+    .links .info .items {
         padding: 0.3rem;
         gap: 0.3rem;
     }
 
-    .project .dis a {
+    .links .dis a {
         font-size: 1.5rem;
         margin-bottom: 0.1rem;
         line-height: 1.2;
     }
 
-    .project .dis span {
+    .links .dis span {
         font-size: 1.2rem;
         margin-bottom: 0.2rem;
         line-height: 1.1;
     }
 
-    .project .dis span:nth-of-type(2) {
+    .links .dis span:nth-of-type(2) {
         font-size: 1.4rem;
     }
 
-    .project .dis p {
+    .links .dis p {
         font-size: 1.1rem;
         line-height: 1;
     }

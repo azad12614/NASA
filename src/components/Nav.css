@@ -1,4 +1,4 @@
-.Btn-Container {
+.nav-btn {
     display: flex;
     position: fixed;
     top: 1%;
@@ -28,7 +28,7 @@
     letter-spacing: 1.2px;
   } */
 
-.icon-Container {
+.nav-icon {
     width: 3rem;
     aspect-ratio: 1/1;
     background-color: var(--bright);
@@ -39,24 +39,24 @@
     border: 3px solid var(--secondary);
 }
 
-.icon-Container svg {
+.nav-icon svg {
     transition-duration: 1.5s;
 }
 
-.icon-Container svg.open {
+.nav-icon svg.open {
     visibility: visible;
 }
 
-.icon-Container svg.close {
+.nav-icon svg.close {
     visibility: collapse;
     width: 0px;
 }
 
-.Btn-Container .icon-Container svg:hover {
+.nav-icon svg:hover {
     animation: arrow 1.5s linear infinite;
 }
 
-.Btn-Container .icon-Container svg:nth-child(2):hover {
+.nav-icon svg:nth-child(2):hover {
     animation: arrow_back 1.5s linear infinite;
 }
 
@@ -84,7 +84,7 @@
     }
 }
 
-.Btn-Container.open {
+.nav-btn.open {
     transform: translateX(14rem);
 }
 

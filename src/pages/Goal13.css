@@ -1,0 +1,36 @@
+.goal13 {
+    background-color: var(--primary);
+}
+
+.goal-contain {
+    color: var(--bright);
+    background: url('../assets/g13.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+    width: 98vw;
+    height: 100vh;
+
+    text-align: center;
+    align-content: center;
+}
+
+.goal-contain h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+}
+
+.goal-contain p {
+    color: var(--white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 1rem;
+}

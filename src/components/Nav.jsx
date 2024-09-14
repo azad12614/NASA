@@ -10,9 +10,9 @@ function Sidebar() {
 
     return (
         <div class="nav">
-            <button onClick={toggleSidebar} className={`Btn-Container ${isOpen ? "open" : ""}`}>
+            <button onClick={toggleSidebar} className={`nav-btn ${isOpen ? "open" : ""}`}>
                 {/* <span class="text">Sidebar</span> */}
-                <span class="icon-Container">
+                <span class="nav-icon">
                     <svg
                         width="24"
                         height="20"

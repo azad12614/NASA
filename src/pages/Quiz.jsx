@@ -406,14 +406,13 @@ const Quiz = () => {
 
     const Que = document.getElementById("question");
     const AnsBtn = document.getElementById("answer-buttons");
-    const Ans = document.getElementById("answer");
+    // const Ans = document.getElementById("answer");
+    const Intro = document.getElementById('intro');
     const startBtn = document.getElementById('start-btn');
     const nextBtn = document.getElementById('next-btn');
     const playBtn = document.getElementById('play-btn');
 
     let result = ``;
-
-    console.log(1);
 
     const startQuiz = () => {
         setCurrentQuestionIndex(1);
@@ -421,29 +420,28 @@ const Quiz = () => {
 
         Que.style.display = 'block';
         AnsBtn.style.display = 'block';
-        Ans.style.display = 'none';
+        // Ans.style.display = 'none';
+        Intro.style.display = 'none';
         startBtn.style.display = 'none';
         nextBtn.style.display = 'none';
         playBtn.style.display = 'none';
-
-        console.log(2);
 
         showQuestion();
     };
 
     const showQuestion = () => {
 
-        if (!questions.length) return; // Handle empty questions
+        if (!questions.length) return;
 
         nextBtn.style.display = 'none';
-        Ans.style.display = 'none';
+        // Ans.style.display = 'none';
 
         const currentQuestion = questions[currentQuestionIndex];
         const answerButtons = answerButtonsRef.current;
 
         Que.innerText = currentQuestion.question;
 
-        answerButtons.innerHTML = ''; // Clear buttons before creating new ones
+        answerButtons.innerHTML = '';
 
         currentQuestion.answers.forEach((answer) => {
             const button = document.createElement('button');
@@ -452,13 +450,11 @@ const Quiz = () => {
             answerButtons.appendChild(button);
 
             if (answer.correct) {
-                result = `Correct Answer: ${answer.text}`;
+                result = answer.text;
             }
 
             button.addEventListener('click', () => handleAnswerClick(answer));
         });
-
-        console.log(3);
     };
 
     const handleAnswerClick = (answer) => {
@@ -467,25 +463,22 @@ const Quiz = () => {
             setScore(score + 1);
         }
 
-
-        // Disable all buttons after answering
         const answerButtons = answerButtonsRef.current;
         answerButtons.querySelectorAll('button').forEach((button) => {
             button.disabled = true;
-            if (button.textContent === answer.text && isCorrect) {
-                button.classList.add('correct');
+            button.style.backgroundColor = 'Black';
+            button.style.color = 'White';
+            if (button.textContent === result) {
+                button.style.backgroundColor = 'Green';
             } else if (button.textContent === answer.text && !isCorrect) {
-                button.classList.add('incorrect');
+                button.style.backgroundColor = 'Red';
             }
         });
 
-        // Show "Next" button
         const nextBtn = document.getElementById('next-btn');
         nextBtn.style.display = 'block';
-        Ans.innerText = result;
-        Ans.style.display = 'block';
-
-        console.log(4);
+        // Ans.innerText = `Correct Answer: ${result}`;
+        // Ans.style.display = 'block';
     };
 
     const showScore = () => {
@@ -493,18 +486,15 @@ const Quiz = () => {
 
         Que.style.display = 'block';
         AnsBtn.style.display = 'none';
-        Ans.style.display = 'none';
+        // Ans.style.display = 'none';
+        Intro.style.display = 'none';
         startBtn.style.display = 'none';
         nextBtn.style.display = 'none';
         playBtn.style.display = 'block';
-
-        console.log(5);
     };
 
     const handlenextBtn = () => {
-        Ans.innerText = ``;
-
-        console.log(6);
+        // Ans.innerText = ``;
 
         setCurrentQuestionIndex(currentQuestionIndex + 1);
         if (currentQuestionIndex < questions.length) {
@@ -532,12 +522,13 @@ const Quiz = () => {
                     <h1>Quiz</h1>
                     <h2 id="question"></h2>
                     <div id="answer-buttons" ref={answerButtonsRef} />
-                    <h2 id="answer"></h2>
-                    <button id="start-btn" className="btn" onClick={startQuiz}>Start Quiz</button>
+                    {/* <h2 id="answer"></h2> */}
+                    <div id="intro">
+                        <p>This is a general quiz/test on the climate change and its impact. You can give quiz on specific topic from the lesson plan.</p>
+                        <button id="start-btn" className="btn" onClick={startQuiz}>Start Quiz</button>
+                    </div>
                     <button id="next-btn" className="btn" onClick={handlenextBtn}>Next</button>
-                    {/* <Link to='/quiz'> */}
                     <button id="play-btn" className="btn" onClick={refreshPage}>Play Again</button>
-                    {/* </Link> */}
                 </div>
             </div>
             <Top></Top>

@@ -34,6 +34,14 @@
     font-weight: 600;
 }
 
+#intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 600;
+    text-align: justify;
+}
+
 .btn {
     font-family: 'Times New Roman', Times, serif;
     background: var(--black);
@@ -116,10 +124,10 @@
     display: none;
 }
 
-.correct {
+/* .correct {
     background: #9aeabc;
 }
 
 .incorrect {
     background: #ff9393;
-}
+} */

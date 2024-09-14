@@ -23,7 +23,7 @@ const Top = () => {
     };
     return (
         <div>
-            <button onClick={goTop} id="topBtn" title="Go to top" style={{ display: showButton ? 'block' : 'none' }}>Top</button>
+            <button onClick={goTop} id="Btn-top" title="Go to top" style={{ display: showButton ? 'block' : 'none' }}>Top</button>
         </div>
     )
 }
