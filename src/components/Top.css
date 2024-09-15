@@ -2,13 +2,14 @@
     position: fixed;
     width: 3rem;
     aspect-ratio: 1/1;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     border: 0.2rem dashed var(--secondary);
     bottom: 0.5%;
     right: 0.6%;
-    font-size: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
     font-weight: bolder;
-    color: var(--primary);
+    color: var(--secondary);
     background-color: var(--white);
+    padding: 0;
+    margin: 0;
 }

@@ -23,7 +23,11 @@ const Top = () => {
     };
     return (
         <div>
-            <button onClick={goTop} id="Btn-top" title="Go to top" style={{ display: showButton ? 'block' : 'none' }}>Top</button>
+            <button onClick={goTop} id="Btn-top" title="Go to top" style={{ display: showButton ? 'block' : 'none' }}>
+                <span class="material-symbols-outlined">
+                    shift
+                </span>
+            </button>
         </div>
     )
 }

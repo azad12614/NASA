@@ -23,6 +23,7 @@ function Hero() {
                             src={CA}
                             alt="Climate Action LOGO"
                             className="hero-img"
+                            loading="lazy"
                         />
                     </div>
                 </div>

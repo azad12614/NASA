@@ -14,7 +14,7 @@ function Footer() {
         <div>
           <div>
             <Link to="/">
-              <img id="footer_logo" src={CA} />
+              <img id="footer_logo" src={CA} loading="lazy" />
             </Link>
             <h1>Learn4Climate</h1>
           </div>

@@ -9,13 +9,13 @@ function Cards({ cards_info }) {
                 <div class="info">
                     {cards_info.map((card) => (
                         <div class="items">
-                            <img src={card.img} alt="" class={card.show} />
+                            <img src={card.img} alt="" class={card.show} loading="lazy" />
                             <div class="dis">
                                 <Link to={card.to} target={card.target}>{card.title}</Link>
                                 <span>{card.span}</span>
                                 <p>{card.text}</p>
                             </div>
-                            <img src={card.img} alt="" class={card.show2} />
+                            <img src={card.img} alt="" class={card.show2} loading="lazy" />
                         </div>
                     ))}
                 </div>
