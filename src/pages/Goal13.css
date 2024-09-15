@@ -3,7 +3,6 @@
 }
 
 .goal-contain {
-    color: var(--bright);
     background: url('../assets/g13.png');
     background-position: center center;
     background-repeat: no-repeat;
@@ -18,8 +17,9 @@
 }
 
 .goal-contain h2 {
+    color: var(--bright);
     font-family: "Jost", sans-serif;
-    font-size: 5rem;
+    font-size: clamp(4rem, 10vw, 6rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.5px;
@@ -33,4 +33,48 @@
     font-weight: 500;
     line-height: 1;
     padding-top: 1rem;
+}
+
+.goal13 h1 {
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-family: "Kaushan Script", cursive;
+    font-size: clamp(4rem, 10vw, 6rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.goal13 ul {
+    background-color: var(--white);
+    padding-inline: auto;
+}
+
+.goal13 ul li {
+    color: var(--black);
+    width: clamp(320px, 90vw, 1080px);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-block: 0.5rem;
+    margin-inline: auto;
+}
+
+.goal13 ul li span {
+    color: var(--secondary);
+    background-color: var(--bg);
+    border: 0.2rem solid var(--secondary);
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+.goal13 ul li strong {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-weight: bolder;
 }

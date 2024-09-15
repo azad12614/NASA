@@ -46,7 +46,6 @@
 
 .links .info .items:nth-child(2n) {
     grid-template-columns: 60% 40%;
-
 }
 
 .links .info .items:hover {
@@ -109,6 +108,13 @@
     line-height: 1.0;
 }
 
+.show {
+    display: block;
+}
+
+.none {
+    display: none;
+}
 
 @media (max-width: 1080px) {
 

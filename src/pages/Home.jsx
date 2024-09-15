@@ -3,7 +3,6 @@ import "./Home.css"
 import Nav from '../components/Nav.jsx';
 import Hero from '../components/Hero.jsx';
 import Lesson from '../components/Lesson.jsx';
-import Links from '../components/Links.jsx';
 import Footer from '../components/Footer.jsx';
 import Top from '../components/Top.jsx';
 
@@ -13,7 +12,6 @@ const Home = () => {
             <Nav></Nav>
             <Hero></Hero>
             <Lesson></Lesson>
-            <Links></Links>
             <Footer></Footer>
             <Top></Top>
         </div>
