@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 1080px) {
-    .section-hero {
+    .hero {
         padding-top: clamp(5rem, 15vh, 10rem);
         padding-bottom: clamp(5rem, 20vh, 10rem);
     }
@@ -116,7 +116,7 @@
 }
 
 @media (max-width: 798px) {
-    .section-hero {
+    .hero {
         padding-top: clamp(4rem, 8vh, 10rem);
         padding-bottom: 5vh;
     }
@@ -168,7 +168,7 @@
 }
 
 @media (max-width: 520px) {
-    .section-hero {
+    .hero {
         padding-top: clamp(4rem, 8vh, 10rem);
         padding-bottom: 5vh;
     }
