@@ -139,6 +139,16 @@ a:hover {
         margin-inline: 3vw;
     }
 
+    .lesson .ca13 {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .lesson .g13 {
+        width: 10rem;
+        height: 5rem;
+    }
+
     .box {
         shape-outside: inset(100vw 56vw 100vw 56vw 10px);
         margin: 0;
