@@ -27,7 +27,7 @@ const Lesson = () => {
         },
         {
             img: lesson,
-            to: '/',
+            to: '/Plan',
             title: 'Lesson Plan',
             span: 'High School Guide',
             text: 'This guide provides a collection of resources and strategies to facilitate climate change education.',

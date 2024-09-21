@@ -75,7 +75,7 @@ const Goal13 = () => {
   return (
     <>
       <Nav></Nav>
-      <div class="goal13">
+      <div class="goal">
         <div class="goal-contain">
           <h2>
             Goal 13: Climate Action

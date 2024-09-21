@@ -1,16 +1,24 @@
 .hero {
-    background-color: var(--bg);
+    background-color: var(--primary);
     font-weight: 400;
     line-height: 1;
-    padding-top: clamp(5rem, 20vh, 10rem);
-    padding-bottom: clamp(5rem, 20vh, 10rem);
+    padding: 0;
 }
 
 .heros {
+    background: url('../assets/g13.png');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain contain;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 3rem;
-    margin-inline: 3rem;
+    padding-top: clamp(5rem, 20vh, 10rem);
+    padding-bottom: clamp(5rem, 20vh, 10rem);
+    padding-inline: 3rem;
+    margin: 0;
     align-items: center;
 }
 
@@ -78,14 +86,13 @@
 }
 
 @media (max-width: 1080px) {
-    .hero {
+    .heros {
+        background-position: 50% 25%;
+        background-size: contain contain;
+        gap: 0 2.5rem;
+        padding-inline: 2.5rem;
         padding-top: clamp(5rem, 15vh, 10rem);
         padding-bottom: clamp(5rem, 20vh, 10rem);
-    }
-
-    .heros {
-        gap: 0 2.5rem;
-        margin-inline: 2.5rem;
     }
 
     .hero-text-box {

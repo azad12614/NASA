@@ -57,8 +57,6 @@ function Sidebar() {
                 <ul>
                     <li><a href="/#Hero">Home</a></li>
                     <li><a href="/#About">About</a></li>
-                    <li><a href="/Goal13">Goal 13</a></li>
-                    <li><a href="/quiz">Quiz</a></li>
                     <li><a href="/#footer">Contact</a></li>
                 </ul>
             </div>

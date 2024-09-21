@@ -1,4 +1,4 @@
-.goal13 {
+.goal {
     background-color: var(--primary);
 }
 
@@ -17,13 +17,21 @@
 }
 
 .goal-contain h2 {
-    color: var(--bright);
-    font-family: "Jost", sans-serif;
-    font-size: clamp(4rem, 10vw, 6rem);
+    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnA2eXE2NWRhbm8zd285eWFhdWplZmNzc3d4OTQ1enB4ZDViZDFwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cWGuknwZUsxnlqm8ig/giphy.webp);
+    -webkit-text-fill-color: #00000042;
+    -webkit-text-stroke: 0px #0000004f;
+    text-shadow: -3px -3px 10px #ffffff0d, -3px -3px 3px #00000040;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-background-clip: text;
+    font-family: "poppins", cursive;
+    font-size: clamp(6rem, 10vw, 8rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.5px;
     line-height: 1;
+
 }
 
 .goal-contain p {
@@ -35,7 +43,7 @@
     padding-top: 1rem;
 }
 
-.goal13 h1 {
+.goal h1 {
     color: var(--primary);
     background-color: var(--secondary);
     font-family: "Kaushan Script", cursive;
@@ -48,12 +56,12 @@
     padding-block: 1rem;
 }
 
-.goal13 ul {
+.goal ul {
     background-color: var(--white);
     padding-inline: auto;
 }
 
-.goal13 ul li {
+.goal ul li {
     color: var(--black);
     width: clamp(320px, 90vw, 1080px);
     font-family: "Cormorant Garamond", serif;
@@ -64,7 +72,7 @@
     margin-inline: auto;
 }
 
-.goal13 ul li span {
+.goal ul li span {
     color: var(--secondary);
     background-color: var(--bg);
     border: 0.2rem solid var(--secondary);
@@ -73,7 +81,7 @@
     margin-right: 0.5rem;
 }
 
-.goal13 ul li strong {
+.goal ul li strong {
     color: var(--secondary);
     font-size: 2rem;
     font-weight: bolder;
