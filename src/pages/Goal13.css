@@ -17,14 +17,15 @@
 }
 
 .goal-contain h2 {
-    background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnA2eXE2NWRhbm8zd285eWFhdWplZmNzc3d4OTQ1enB4ZDViZDFwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cWGuknwZUsxnlqm8ig/giphy.webp);
+    /* background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnA2eXE2NWRhbm8zd285eWFhdWplZmNzc3d4OTQ1enB4ZDViZDFwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cWGuknwZUsxnlqm8ig/giphy.webp);
     -webkit-text-fill-color: #00000042;
     -webkit-text-stroke: 0px #0000004f;
     text-shadow: -3px -3px 10px #ffffff0d, -3px -3px 3px #00000040;
     background-repeat: repeat;
     background-position: center center;
     background-size: contain;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
+    color: var(--bright);
     font-family: "poppins", cursive;
     font-size: clamp(6rem, 10vw, 8rem);
     font-weight: 700;

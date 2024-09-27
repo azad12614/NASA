@@ -1,5 +1,6 @@
 import CA from "../assets/climate_action.png"
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 
 function Hero() {
@@ -14,9 +15,9 @@ function Hero() {
                         <p class="hero-description">
                             This lesson plan helps students learn about climate change. They will understand its causes, effects, and possible solutions. Students will also learn to think critically and become more aware of environmental issues. The goal is to help students become informed and engaged citizens who can help address climate change.
                         </p>
-                        <a href="" target="_blank" class="enroll">
+                        <Link to="/Goal13" class="enroll">
                             Start Learning
-                        </a>
+                        </Link>
                     </div>
                     <div class="hero-img-box">
                         <img
