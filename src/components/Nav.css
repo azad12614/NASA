@@ -4,12 +4,12 @@
     top: 1%;
     left: 1%;
     /* width: 170px; */
-    width: 3.25rem;
+    width: 3.5rem;
     aspect-ratio: 1/1;
     padding: 0.1rem;
-    background-color: var(--secondary);
     border-radius: 40px;
-    box-shadow: 0px 5px 10px #b0b0b0;
+    background-color: var(--bright);
+    /* box-shadow: 0px 5px 10px #b0b0b0; */
     justify-content: space-between;
     align-items: center;
     border: none;
@@ -29,14 +29,14 @@
   } */
 
 .nav-icon {
-    width: 3rem;
+    width: 3.25rem;
     aspect-ratio: 1/1;
-    background-color: var(--bright);
+    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 5px solid var(--bright);
     border-radius: 50%;
-    border: 3px solid var(--secondary);
 }
 
 .nav-icon svg {
@@ -85,20 +85,20 @@
 }
 
 .nav-btn.open {
-    transform: translateX(14rem);
+    transform: translateX(20rem);
 }
 
 .sidebar {
     font-family: "Cormorant Garamond", serif;
-    width: 14rem;
+    width: 20rem;
     height: 100vh;
-    background-color: var(--bg);
-    border-right: 5px dashed var(--secondary);
+    background-color: var(--highlight);
+    border-right: 5px dashed var(--white);
     position: fixed;
     top: 0;
     left: 0;
     transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease;
     z-index: 100;
 }
 
@@ -108,6 +108,7 @@
 
 .sidebar ul {
     padding: 2rem;
+    padding-top: 5rem;
     justify-content: space-around;
 }
 
@@ -116,6 +117,7 @@
     font-size: 2rem;
     font-weight: bold;
     padding: 0;
+    padding-top: 1rem;
 }
 
 .sidebar ul li a {
@@ -123,7 +125,12 @@
     transition: 0.5s;
 }
 
+.sidebar ul li span {
+    padding-right: 0.2rem;
+}
+
 .sidebar ul li:hover>a,
+.sidebar ul li:hover>span,
 .sidebar ul li:hover {
     color: var(--bright);
     transform: translateZ(10px);

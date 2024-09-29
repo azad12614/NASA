@@ -14,7 +14,7 @@
 
 .links {
     padding-top: 2rem;
-    background-color: var(--bg);
+    background-color: var(--highlight);
 }
 
 .links .info {

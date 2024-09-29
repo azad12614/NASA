@@ -18,7 +18,7 @@ const Plan = () => {
                         All About Climate Action
                     </p>
                 </div>
-                <h1>Outline</h1>
+                <h1>Lessons</h1>
                 <div class="tabs">
                     <div class="tab">
                         <input class="tab-radio" type="radio" id="tab-1" name="tab-group-1" checked />
@@ -286,7 +286,7 @@ const Plan = () => {
                                         <span class="material-symbols-outlined">
                                             grid_view
                                         </span>
-                                        &nbsp; Chapter 4: Economic Consequences
+                                        &nbsp; Chapter 5: Economic Consequences
                                     </li>
                                     <li>
                                         <ul>
@@ -327,10 +327,175 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Chapter</h2>
-                                <p>Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".</p>
-                                <p>Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into "soured" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.</p>
-                                <p>Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side.</p>
+                                <h2>Mitigation Strategies</h2>
+                                <ul>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 1: Reducing Greenhouse Gas Emissions
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Sources of Greenhouse Gas Emissions
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Reducing Greenhouse Gas Emissions
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 2: Transitioning to Renewable Energy
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Types of Renewable Energy Sources
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Benefits of Renewable Energy
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 3: Carbon Capture and Storage
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; How Carbon Capture and Storage Works?
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Potential Benefits of Carbon Capture and Storage
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Challenges of Carbon Capture and Storage
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 4: Sustainable land use practices
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Importance of Sustainable Land Use
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Sustainable Land Use
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -341,11 +506,169 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Chapter</h2>
-                                <p>Preheat oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch square pan.</p>
-                                <p>In a large saucepan, melt 1/2 cup butter. Remove from heat, and stir in sugar, eggs, and 1 teaspoon vanilla. Beat in 1/3 cup cocoa, 1/2 cup flour, salt, and baking powder. Spread batter into prepared pan.</p>
-                                <p>Bake in preheated oven for 25 to 30 minutes. Do not overcook.</p>
-                                <p>To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners' sugar. Stir until smooth. Frost brownies while they are still warm.</p>
+                                <h2>Adaptation Strategies</h2>
+                                <ul>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 1: Preparing for Climate-Related Impacts
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Importance of Climate Change Adaptation
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Preparing for Climate-Related Impacts
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 2: Building Resilience in Communities
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Community-Based Adaptation Strategies
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Promoting Sustainable Development
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 3: Climate-Smart Agriculture and Forestry
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Sustainable Farming and Forestry Practices
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Adapting to Changing Climate Conditions
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 4: Disaster Risk Reduction
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Importance of Disaster Risk Reduction
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Disaster Risk Reduction
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -356,18 +679,349 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Chapter</h2>
-                                <p>Preheat oven to 350 degrees F (175 degrees C).</p>
-                                <p>Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. </p>
-                                <p>Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.</p>
-                                <p>Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.</p>
+                                <h2>Climate Policy and International Cooperation</h2>
+                                <ul>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 1: The Scientific Consensus
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; The Overwhelming Scientific Agreement on Climate Change
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; The Role of Scientists in Studying and Addressing Climate Change
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 2: The Paris Agreement
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Goals and Objectives of the Paris Agreement
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Progress Made and Challenges Faced
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 3: National Climate Policies
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Climate Policies in Different Countries
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Effectiveness of National Climate Actions
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 4: The Role of Businesses and Corporations
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Corporate Social Responsibility and Climate Action
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Sustainable Business Practices
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input class="tab-radio" type="radio" id="tab-7" name="tab-group-1" checked />
-                        <label class="tab-label" for="tab-7"><span class="word-span">Overview</span> #</label>
+                        <label class="tab-label" for="tab-7"><span class="word-span">Lesson</span> 7</label>
+
+                        <div class="tab-panel">
+                            <div class="tab-content">
+                                <h2>Climate Action and Citizen Engagement</h2>
+                                <ul>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 1: Individual Actions to Reduce Carbon Footprint
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Everyday Actions to Reduce Carbon Footprint
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; The Power of Individual Choices
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 2: Community-Based Climate Initiatives
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Successful Community-Based Climate Projects
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Local Climate Initiatives
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 3: Advocacy and Activism for Climate Justice
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; The Importance of Advocacy and Activism
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Raising Awareness and Influencing Policy
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined">
+                                            grid_view
+                                        </span>
+                                        &nbsp; Chapter 4: The role of education and awareness
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Intro
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; The Importance of Education and Awareness
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Strategies for Promoting Climate Education and Awareness
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Real-world examples
+                                            </li>
+                                            <li>
+                                                <span class="material-symbols-outlined">
+                                                    grade
+                                                </span>
+                                                &nbsp; Activity
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab">
+                        <input class="tab-radio" type="radio" id="tab-8" name="tab-group-1" checked />
+                        <label class="tab-label" for="tab-8"><span class="word-span">Overview</span> #</label>
 
                         <div class="tab-panel">
                             <div class="tab-content">

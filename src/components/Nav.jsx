@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css"; // Create a CSS file for styling
 
 function Sidebar() {
@@ -55,9 +56,36 @@ function Sidebar() {
             </button>
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
                 <ul>
-                    <li><a href="/#Hero">Home</a></li>
-                    <li><a href="/#About">About</a></li>
-                    <li><a href="/#footer">Contact</a></li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                        <a href="/#About">About</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            visibility
+                        </span>
+                        <Link to="/Goal13">Climate Action</Link>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            play_lesson
+                        </span>
+                        <Link to="/Plan">Lesson Plan</Link>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            contacts
+                        </span>
+                        <a href="/#footer">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
