@@ -78,18 +78,6 @@ a:hover {
     margin-bottom: -0.8rem;
 }
 
-.neo-video-player {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 540px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px var(--black),
-        -5px -5px 20px var(--black);
-}
-
-
 @media (max-width: 1080px) {
     .lesson {
         width: 80vw;

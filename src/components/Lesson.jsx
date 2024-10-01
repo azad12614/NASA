@@ -8,7 +8,6 @@ import lesson from "../assets/lesson.png";
 import w_view from "../assets/nasa.png";
 import thumb from "../assets/poster.png";
 import quiz from "../assets/quiz.png";
-import vdo from '../assets/video.mp4';
 import w_ll from "../assets/wll.png";
 
 import Cards from '../components/Cards.jsx';
@@ -80,10 +79,15 @@ const Lesson = () => {
                 <div class="Info">
                     <div class="box text-center" dir="ltr">
                         <h4 class="display-2 text-center main">About Lesson</h4>
-                        <div class="neo-video-player" id="popout-video-player">
+                        {/* <div class="neo-video-player" id="popout-video-player">
                             <video class="video-element" id="video-element" poster={thumb} controls>
                                 <source src={vdo} type="video/mp4" />
                             </video>
+                        </div> */}
+                        <div class="neo-video-player">
+                            <iframe
+                                src="https://www.youtube.com/embed/G9t__9Tmwv4?si=EpWgTAiDVJQFHXg6">
+                            </iframe>
                         </div>
                     </div>
                     <img src={ca13} class="ca13" />

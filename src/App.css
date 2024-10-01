@@ -43,3 +43,23 @@ font-family: 'Lobster', cursive;
     background: var(--primary);
     border: 0.1rem solid var(--white);
 }
+
+.neo-video-player {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 540px;
+    height: 320px;
+    margin: auto;
+    margin-block: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px var(--black),
+        -4px -4px 16px var(--black);
+}
+
+iframe {
+    height: 320px;
+    width: 540px;
+    margin: auto;
+    margin-bottom: 2rem;
+}

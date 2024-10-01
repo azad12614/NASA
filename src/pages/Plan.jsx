@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer.jsx';
 import Nav from '../components/Nav.jsx';
 import Top from '../components/Top.jsx';
-import './Plan.css'
+import './Plan.css';
 
 const Plan = () => {
 
@@ -26,7 +27,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Introduction to Climate Change</h2>
+                                <h2>
+                                    <Link to="/article">
+                                        Introduction to Climate Change
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
