@@ -28,7 +28,7 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
-                                    <Link to="/article">
+                                    <Link to="/article/1">
                                         Introduction to Climate Change
                                     </Link>
                                 </h2>
@@ -84,7 +84,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Climate Data</h2>
+                                <h2>
+                                    <Link to="/article/2">
+                                        Climate Data
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -131,7 +135,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Impacts of Climate Change</h2>
+                                <h2>
+                                    <Link to="/article/3">
+                                        Impacts of Climate Change
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -332,7 +340,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Mitigation Strategies</h2>
+                                <h2>
+                                    <Link to="/article/4">
+                                        Mitigation Strategies
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -511,7 +523,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Adaptation Strategies</h2>
+                                <h2>
+                                    <Link to="/article/5">
+                                        Adaptation Strategies
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -684,7 +700,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Climate Policy and International Cooperation</h2>
+                                <h2>
+                                    <Link to="/article/6">
+                                        Climate Policy and International Cooperation
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -857,7 +877,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Climate Action and Citizen Engagement</h2>
+                                <h2>
+                                    <Link to="/article/7">
+                                        Climate Action and Citizen Engagement
+                                    </Link>
+                                </h2>
                                 <ul>
                                     <li>
                                         <span class="material-symbols-outlined">
@@ -1030,7 +1054,11 @@ const Plan = () => {
 
                         <div class="tab-panel">
                             <div class="tab-content">
-                                <h2>Climate Action: Using NASA Data to Uncover Trends</h2>
+                                <h2>
+                                    <Link to="/article/1">
+                                        Climate Action: Using NASA Data to Uncover Trends
+                                    </Link>
+                                </h2>
                                 <h3>Overview</h3>
                                 <p>This project aims to develop a comprehensive lesson plan for high school students to understand the impacts of climate change and the role of Earth observation data in monitoring and addressing this global challenge. By integrating climate change concepts into existing science curricula, students will be equipped with the knowledge and tools to become active participants in climate action.</p>
                                 <h3>Learning Objectives</h3>

@@ -48,18 +48,16 @@ font-family: 'Lobster', cursive;
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 540px;
-    height: 320px;
+    width: min(540px, 94vw);
+    aspect-ratio: 16/9;
     margin: auto;
-    margin-block: 1rem;
+    margin-block: 0.5rem;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px var(--black),
-        -4px -4px 16px var(--black);
+    border: 2px solid var(--secondary);
 }
 
 iframe {
-    height: 320px;
-    width: 540px;
+    width: min(540px, 94vw);
+    aspect-ratio: 16/9;
     margin: auto;
-    margin-bottom: 2rem;
 }

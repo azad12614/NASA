@@ -117,7 +117,6 @@
 }
 
 @media (max-width: 1080px) {
-
     .links .info {
         grid-template-columns: auto;
         align-content: space-evenly;
@@ -191,7 +190,6 @@
 
 
 @media (max-width: 520px) {
-
     .links .info {
         display: grid;
         grid-template-columns: auto;
