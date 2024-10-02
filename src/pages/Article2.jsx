@@ -16,7 +16,7 @@ const Article = () => {
                             {/* <h1>Climate Change</h1> */}
                             <div class="wrapper">
                                 <img src="https://svgshare.com/i/1B3E.svg" alt="earth icon" />
-                                <h1>Climate<span class="mask">Data</span></h1>
+                                <h1>Climate <span class="mask">Data</span></h1>
                             </div>
                             <div class="byline">Historical climate data</div>
                         </div>
