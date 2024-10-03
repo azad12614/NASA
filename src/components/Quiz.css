@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.quiz-app {
+    padding: min(5rem, 3vw);
+}
+
+.quiz {
+    /* background: var(--bg); */
+    background: url('../assets/nature.png');
+    object-fit: contain;
+    width: 94vw;
+    max-width: 700px;
+    height: 500px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.quiz h1 {
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: bolder;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+#intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    background: var(--black);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.35rem;
+    width: 100%;
+    border: none;
+    padding: 0.25rem;
+    margin: 1rem auto 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#start-btn {
+    font-family: "Jost", sans-serif;
+    background: var(--black);
+    color: var(--bright);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 10rem;
+    border: none;
+    margin: 1rem auto 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+#next-btn {
+    font-family: "Jost", sans-serif;
+    background: var(--black);
+    color: var(--bright);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 10rem;
+    border: none;
+    margin: 1rem auto 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#play-btn {
+    font-family: "Jost", sans-serif;
+    background: var(--black);
+    color: var(--bright);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 10rem;
+    border: none;
+    margin: 1rem auto 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#question {
+    display: none;
+}
+
+#answer-buttons {
+    display: none;
+}
+
+#answer {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--black);
+    text-align: center;
+    margin-block: 1rem;
+    display: none;
+}
+
+/* .correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+} */

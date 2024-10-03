@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+.Footer2 {
+    background: url('https://i854.photobucket.com/albums/ab109/lacilu22/NATURE.gif');
+    z-index: 10;
+}
+
+.scene {
+    display: flex;
+    align-items: flex-end;
+}
+
+.windmill {
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.tower {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 18px;
+    height: 100px;
+    background: #22577a;
+    transform: translateX(-50%);
+}
+
+.nacelle {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #38a3a5;
+    transform: translateX(-50%);
+    transform-origin: center;
+    animation: rotate 5s linear infinite;
+}
+
+.blade {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: #38a3a5;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 50%;
+    border-radius: 5px;
+}
+
+.blade1 {
+    transform: rotate(0deg);
+}
+
+.blade2 {
+    transform: rotate(120deg);
+}
+
+.blade3 {
+    transform: rotate(240deg);
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.environment {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.moon {
+    position: absolute;
+    bottom: 20;
+    left: 20;
+    width: 50px;
+    height: 100px;
+    clip-path: ellipse(50% 25% at 50% 50%);
+    background-color: #fff;
+    opacity: 0.4;
+}
+
+.tronc {
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    width: 100px;
+    height: 10px;
+    background: #22577a;
+    transform: translateX(-50%);
+}
+
+.facade {
+    position: absolute;
+    bottom: 0;
+    right: -85px;
+    width: 140px;
+    height: 140px;
+    background: #38a3a9;
+    clip-path: polygon(50% 0%, 80% 40%, 80% 60%, 80% 100%, 68% 100%, 32% 100%, 16% 100%, 15% 41%, 48% 0);
+}
+
+.house {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: #38a3a5;
+    border-radius: 5px;
+}
+
+.roof {
+    position: absolute;
+    top: -40px;
+    left: 55%;
+    width: 130px;
+    height: 50px;
+    background: #22577a;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    transform: translateX(-50%);
+}
+
+.panel {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 60px;
+    height: 40px;
+    background: #2F4F4F;
+    /* Dark slate gray */
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+    animation: shine 3s ease-in-out infinite alternate;
+}
+
+.garden {
+    position: absolute;
+    bottom: 0px;
+    left: 270%;
+    width: 100px;
+    height: 20px;
+    background: #22577a;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+@keyframes shine {
+    0% {
+        background: #2F4F4F;
+    }
+
+    100% {
+        background: #f7b801;
+    }
+}
+
+.progress {
+    top: 70px;
+    left: 10px;
+    width: 20px;
+    height: 10px;
+    border: 2px solid #22577a;
+    border-right-color: transparent;
+    padding: 1.4px;
+    background: repeating-linear-gradient(90deg, #22577a 0 4.8px, #0000 0 7.2px) left/0% 100% no-repeat content-box content-box;
+    position: relative;
+    animation: p5 2s infinite steps(6);
+}
+
+.progress::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: 100%;
+    width: 5px;
+    background: linear-gradient(#0000 calc(50% - 5.4px), #22577a 0 calc(50% - 3.4px),
+            #0000 0 calc(50% + 3.4px), #22577a 0 calc(50% + 5.4px), #0000 0) left /100% 100%,
+        linear-gradient(#22577a calc(50% - 3.4px), #0000 0 calc(50% + 3.4px), #22577a 0) left /2px 100%,
+        linear-gradient(#0000 calc(50% - 3.4px), #22577a 0 calc(50% + 3.4px), #0000 0) right/2px 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes p5 {
+    100% {
+        background-size: 120% 100%;
+    }
+}

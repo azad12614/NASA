@@ -42,7 +42,7 @@
 }
 
 .image6 {
-  background-image: url("https://images.unsplash.com/photo-1488229297570-58520851e868?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://i.ibb.co.com/z4st823/3iskfb2j-1.png");
   background-size: cover;
 }
 
@@ -134,10 +134,47 @@
   }
 }
 
+.headline .wrapper2 {
+  color: var(--highlight);
+  font-size: 4.8rem;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1rem var(--white);
+}
+
+.headline .wrapper2::before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: var(--secondary);
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  border-right: 2px solid var(--secondary);
+  -webkit-text-stroke: 0vw var(--black);
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
 .article-text {
   margin: auto;
   padding: 0.5rem;
-  max-width: 650px;
+  max-width: 800px;
   font-size: 1.25rem;
   line-height: 1.25;
   text-align: justify;
@@ -149,6 +186,12 @@
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.25;
+  text-transform: capitalize;
+}
+
+.article-text h1 span {
+  color: var(--primary);
+  font-size: 1.6rem;
 }
 
 .article-text p {
@@ -158,15 +201,27 @@
 }
 
 .article-text strong {
-  color: var(--secondary);
+  color: var(--bright);
   padding-bottom: 1.25rem;
   font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.article-text p strong {
+  color: var(--secondary);
 }
 
 .article-text span {
-  color: var(--secondary);
-  font-size: 1rem;
+  color: var(--bright);
+  font-size: 1.5rem;
   font-weight: bold;
+  vertical-align: top;
+  padding-right: 0.2rem;
+}
+
+.article-text p span {
+  color: var(--secondary);
+  padding-left: 1rem;
 }
 
 .first::first-letter {
@@ -204,6 +259,30 @@
   z-index: 100;
 }
 
+.article-text .game {
+  padding-bottom: 1rem;
+}
+
+.article-text .game>h1 {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+
+.article-text .game li>span {
+  color: var(--red);
+  font-size: 1.5rem;
+  font-weight: bold;
+  vertical-align: top;
+  padding-left: 1rem;
+  padding-right: 0.2rem;
+}
+
+.article-text .game a {
+  color: var(--red);
+  font-size: 1.5rem;
+  font-weight: bold;
+  vertical-align: top;
+}
 
 @media (max-width: 1080px) {}
 
@@ -217,7 +296,7 @@
   }
 
   .headline .wrapper img {
-    width: 60px;
+    height: 60px;
     aspect-ratio: 1/1;
     align-self: center;
     vertical-align: bottom;
@@ -246,10 +325,11 @@
     align-content: center;
     grid-template-rows: 40px 50px;
     grid-gap: 1px;
+    width: 90vw;
   }
 
   .headline .wrapper img {
-    width: 40px;
+    height: 40px;
     aspect-ratio: 1/1;
     align-self: center;
     vertical-align: bottom;
@@ -288,5 +368,86 @@
   .image7 {
     background-size: cover;
     background-position-y: center;
+  }
+}
+
+.arrowBtn {
+  width: 98.7vw;
+  height: 6rem;
+  margin-inline: auto;
+  background-color: var(--primary);
+}
+
+.arrowBtn .previousBtn {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-top: 0.6rem;
+  left: 0;
+}
+
+.arrowBtn .nextBtn {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: absolute;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-top: 0.6rem;
+  right: 0;
+}
+
+.arrowBtn svg {
+  transition-duration: 1.5s;
+}
+
+.arrowBtn .nextBtn svg {
+  margin-right: 1rem;
+}
+
+.arrowBtn .previousBtn svg {
+  margin-left: 1rem;
+}
+
+.arrowBtn .nextBtn:hover>svg {
+  animation: arrow 1.5s linear infinite;
+}
+
+.arrowBtn .previousBtn:hover>svg {
+  animation: arrow_back 1.5s linear infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    margin-right: 1rem;
+  }
+
+  100% {
+    opacity: 1;
+    margin-right: 0rem;
+  }
+}
+
+@keyframes arrow_back {
+  0% {
+    opacity: 0;
+    margin-left: 1rem;
+  }
+
+  100% {
+    opacity: 1;
+    margin-left: 0rem;
   }
 }

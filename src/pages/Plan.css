@@ -27,7 +27,7 @@
     -webkit-background-clip: text; */
     color: var(--bright);
     font-family: "poppins", cursive;
-    font-size: clamp(6rem, 10vw, 8rem);
+    font-size: clamp(4rem, 10vw, 8rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.5px;
@@ -176,6 +176,12 @@
     text-align: center;
     margin-bottom: 2rem;
     text-transform: capitalize;
+    text-decoration: underline solid var(--highlight);
+}
+
+.Plan-main .tabs .tab-content h2:hover {
+    color: var(--secondary);
+    text-decoration: underline wavy var(--bright);
 }
 
 .Plan-main .tabs .tab-content h3,

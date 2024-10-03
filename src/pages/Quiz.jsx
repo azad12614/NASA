@@ -415,7 +415,7 @@ const Quiz = () => {
     let result = ``;
 
     const startQuiz = () => {
-        setCurrentQuestionIndex(1);
+        setCurrentQuestionIndex(0);
         setScore(0);
 
         Que.style.display = 'block';
