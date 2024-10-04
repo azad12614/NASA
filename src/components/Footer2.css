@@ -2,6 +2,7 @@
 
 .Footer2 {
     background: url('https://i854.photobucket.com/albums/ab109/lacilu22/NATURE.gif');
+    background-size: cover;
     z-index: 10;
 }
 

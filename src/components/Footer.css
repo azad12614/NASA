@@ -10,6 +10,10 @@
 }
 
 footer {
+    background: url('https://i854.photobucket.com/albums/ab109/lacilu22/NATURE.gif');
+    background-size: cover;
+
+
     width: 100%;
 
     display: flex;
@@ -21,9 +25,9 @@ footer {
 
     padding: 1rem;
 
-    background: #d4d4d4;
+    /* background: #d4d4d4;
     backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px); */
 }
 
 footer p,
@@ -36,7 +40,7 @@ footer p a {
 
 footer h1 {
     font-family: "Jost", sans-serif;
-    color: var(--bright);
+    color: var(--secondary);
     text-transform: uppercase;
     font-weight: 700;
     font-size: calc(0.8 * var(--m));
@@ -46,7 +50,7 @@ footer h1 {
 
 footer h2 {
     font-family: 'Luckiest Guy', cursive;
-    color: var(--highlight);
+    color: var(--black);
     text-transform: uppercase;
     font-weight: 700;
     font-size: calc(0.6 * var(--m));

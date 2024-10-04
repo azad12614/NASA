@@ -115,7 +115,7 @@ const Article = () => {
                             Why are temperature records important?
                         </strong>
                         <p>
-                            Temperature records provide valuable insights into climate patterns and trends. They help us understand:
+                            Temperature records provide valuable insights into climate patterns and trends. <u>They help us understand:</u>
                         </p>
                         <p>
                             <span class="material-symbols-outlined">
@@ -135,25 +135,71 @@ const Article = () => {
                             </span>
                             <strong>Temperature Trends:</strong> How temperatures have changed over time, including long-term warming or cooling trends.
                         </p>
-                        <p>
-                            Real-world example:
+                        <strong>Real-world example:</strong>
+                        <p class='first'>
                             Let's consider the temperature records of Chattogram, Bangladesh. Over the past century, the average temperature in Chattogram has increased by around 0.5 degrees Celsius. This indicates a warming trend in the region, consistent with the global trend of rising temperatures. Additionally, the number of days with extreme heat has also increased.
-                            Importance of temperature records:
-                            	Climate change research: Temperature records are essential for studying climate change and understanding its causes and impacts.
-                            	Weather forecasting: Accurate temperature records are crucial for weather forecasting and predicting extreme weather events.
-                            	Agriculture and planning: Farmers and urban planners use temperature data to make decisions about planting, harvesting, and infrastructure development.
+                        </p>
+                        <strong>Importance of temperature records:</strong>
+                        <p>
+                            <strong>Climate change research:</strong> Temperature records are essential for studying climate change and understanding its causes and impacts.
+                        </p>
+                        <p>
+                            <strong>Weather forecasting:</strong> Accurate temperature records are crucial for weather forecasting and predicting extreme weather events.
+                        </p>
+                        <p>
+                            <strong>Agriculture and planning:</strong> Farmers and urban planners use temperature data to make decisions about planting, harvesting, and infrastructure development.
+                        </p>
+                        <p>
                             By analyzing temperature records, we can gain a better understanding of our planet's climate and the challenges posed by climate change.
+                        </p>
+                        <strong>
                             Reconstructing Past Climates with Ice Cores and Tree Rings
+                        </strong>
+                        <p class='first'>
                             Ice cores and tree rings serve as historical archives, offering valuable insights into Earth's past climate. By analyzing these natural wonders, scientists can reconstruct temperature, precipitation, and atmospheric composition over long periods.
-                            Ice Cores:
-                            o	Trapped Air Bubbles: These bubbles act as a time capsule, preserving the atmospheric composition from the time the ice formed. Analyzing them reveals past concentrations of greenhouse gases like carbon dioxide and methane.
-                            o	Stable Isotopes: The ratio of oxygen and hydrogen isotopes in ice cores tells a story about past temperatures. Heavier isotopes indicate colder periods, while lighter isotopes point to warmer times.
-                            o	Dust and Volcanic Ash: These inclusions provide clues about past volcanic eruptions and atmospheric circulation patterns.
-                            Tree Rings:
-                            o	Width and Density: Wider, denser rings signify favorable growth conditions – warm temperatures and sufficient rainfall. Narrower, less dense rings suggest harsher times – cold temperatures or droughts.
-                            o	Stable Isotopes: Similar to ice cores, tree rings can be analyzed for stable isotopes of carbon and oxygen, revealing past temperature, precipitation, and atmospheric composition.
+                        </p>
+                        <p>
+                            <strong>Ice Cores:</strong>
+                            <ul>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        check
+                                    </span>
+                                    <strong>Trapped Air Bubbles: </strong>These bubbles act as a time capsule, preserving the atmospheric composition from the time the ice formed. Analyzing them reveals past concentrations of greenhouse gases like carbon dioxide and methane.
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        check
+                                    </span>
+                                    <strong>Stable Isotopes: </strong>The ratio of oxygen and hydrogen isotopes in ice cores tells a story about past temperatures. Heavier isotopes indicate colder periods, while lighter isotopes point to warmer times.
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        check
+                                    </span>
+                                    <strong>Dust and Volcanic Ash: </strong>These inclusions provide clues about past volcanic eruptions and atmospheric circulation patterns.
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
+                            <strong>Tree Rings:</strong>
+                            <ul>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        check
+                                    </span>
+                                    <strong>Width and Density: </strong>Wider, denser rings signify favorable growth conditions – warm temperatures and sufficient rainfall. Narrower, less dense rings suggest harsher times – cold temperatures or droughts.
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        check
+                                    </span>
+                                    <strong>Stable Isotopes: </strong>Similar to ice cores, tree rings can be analyzed for stable isotopes of carbon and oxygen, revealing past temperature, precipitation, and atmospheric composition.
+                                </li>
+                            </ul>
+                        </p>
+                        <p>
                             By combining evidence from both ice cores and tree rings, scientists create detailed reconstructions of past climates. These reconstructions help us identify trends and patterns, leading to a better understanding of the causes and impacts of climate change.
-
                         </p>
 
                         <div class="game">
@@ -168,31 +214,19 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='https://climatekids.nasa.gov/coral-bleaching/' target='_blank'>Coral Bleaching</a>
+                                    <a href='https://ig.ft.com/climate-game/' target='_blank'>Climate Game</a>
                                 </li>
                                 <li>
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='https://climatekids.nasa.gov/cubesat-builder-game/' target='_blank'>Spacecraft Builder</a>
+                                    <a href='https://climate.nasa.gov/interactives/climate-time-machine/?intent=021' target='_blank'>Climate Time Machine</a>
                                 </li>
                                 <li>
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='https://spaceplace.nasa.gov/ocean-currents/en/' target='_blank'>Flow with Ocean</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://scied.ucar.edu/interactive/albedo-brightness' target='_blank'>Albedo</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
+                                    <a href='https://www.washingtonpost.com/climate-environment/interactive/2024/global-heat-sea-surface-temperature-records/' target='_blank'>Guess the Heat</a>
                                 </li>
                             </ul>
 
@@ -213,8 +247,8 @@ const Article = () => {
                         </div>
 
                     </div>
-                </article>
-            </div>
+                </article >
+            </div >
             <div class="arrowBtn">
                 <Link to='/article/1' class="previousBtn">
                     <svg

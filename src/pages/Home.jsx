@@ -13,7 +13,7 @@ const Home = () => {
             <Nav></Nav>
             <Hero></Hero>
             <Lesson></Lesson>
-            <Footer2></Footer2>
+            {/* <Footer2></Footer2> */}
             <Footer></Footer>
             <Top></Top>
         </div>
