@@ -207,37 +207,37 @@ const Article = () => {
                             How Carbon Capture and Storage Works
                         </strong>
                         <p>
-                            <strong>o	</strong>Capture: Carbon dioxide is captured from industrial sources, such as power plants and steel mills. This can be done through various methods, including chemical absorption, physical adsorption, and membrane separation.
+                            <strong>o	Capture: </strong>Carbon dioxide is captured from industrial sources, such as power plants and steel mills. This can be done through various methods, including chemical absorption, physical adsorption, and membrane separation.
                         </p>
                         <p>
-                            <strong>o	</strong>Transport: The captured carbon dioxide is transported to a storage site, often a depleted oil or gas field or a deep saline formation.
+                            <strong>o	Transport: </strong>The captured carbon dioxide is transported to a storage site, often a depleted oil or gas field or a deep saline formation.
                         </p>
                         <p>
-                            <strong>o	</strong>Storage: The carbon dioxide is injected into underground reservoirs, where it is trapped and prevented from escaping into the atmosphere.
+                            <strong>o	Storage: </strong>The carbon dioxide is injected into underground reservoirs, where it is trapped and prevented from escaping into the atmosphere.
                         </p>
                         <strong>
                             Potential Benefits of Carbon Capture and Storage
                         </strong>
                         <p>
-                            <strong>o	</strong>Reduces greenhouse gas emissions: CCS can significantly reduce greenhouse gas emissions from industrial processes, contributing to climate change mitigation.
+                            <strong>o	Reduces greenhouse gas emissions: </strong>CCS can significantly reduce greenhouse gas emissions from industrial processes, contributing to climate change mitigation.
                         </p>
                         <p>
-                            <strong>o	</strong>Enables continued use of fossil fuels: CCS can allow for the continued use of fossil fuels while reducing their environmental impact.
+                            <strong>o	Enables continued use of fossil fuels: </strong>CCS can allow for the continued use of fossil fuels while reducing their environmental impact.
                         </p>
                         <p>
-                            <strong>o	</strong>Promotes economic development: CCS can create jobs in the energy sector and support economic growth.
+                            <strong>o	Promotes economic development: </strong>CCS can create jobs in the energy sector and support economic growth.
                         </p>
                         <strong>
                             Challenges of Carbon Capture and Storage
                         </strong>
                         <p>
-                            <strong>o	</strong>High costs: Implementing CCS technology can be expensive, especially for large-scale projects.
+                            <strong>o	High costs: </strong>Implementing CCS technology can be expensive, especially for large-scale projects.
                         </p>
                         <p>
-                            <strong>o	</strong>Technological limitations: There are still technological challenges associated with capturing, transporting, and storing carbon dioxide at a large scale.
+                            <strong>o	Technological limitations: </strong>There are still technological challenges associated with capturing, transporting, and storing carbon dioxide at a large scale.
                         </p>
                         <p>
-                            <strong>o	</strong>Environmental concerns: Some concerns have been raised about the potential environmental impacts of CCS, such as leakage of carbon dioxide into the atmosphere or contamination of groundwater.
+                            <strong>o	Environmental concerns: </strong>Some concerns have been raised about the potential environmental impacts of CCS, such as leakage of carbon dioxide into the atmosphere or contamination of groundwater.
                         </p>
                         <div class="byline">
                             Part 4: Sustainable land use practices

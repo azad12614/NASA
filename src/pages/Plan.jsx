@@ -28,9 +28,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/1">
                                         Introduction to Climate Change
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -85,9 +87,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/2">
                                         Climate Data
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -136,9 +140,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/3">
                                         Impacts of Climate Change
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -341,9 +347,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/4">
                                         Mitigation Strategies
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -524,9 +532,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/5">
                                         Adaptation Strategies
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -701,9 +711,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/6">
                                         Climate Policy and International Cooperation
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>
@@ -878,9 +890,11 @@ const Plan = () => {
                         <div class="tab-panel">
                             <div class="tab-content">
                                 <h2>
+                                    <img src="https://i.giphy.com/LqfTZllRyw3P8Yv7dF.webp" alt="icon" />
                                     <Link to="/article/7">
                                         Climate Action and Citizen Engagement
                                     </Link>
+                                    <img src="https://i.giphy.com/KHKdLHnFZ8nzVExGGN.webp" alt="icon" />
                                 </h2>
                                 <ul>
                                     <li>

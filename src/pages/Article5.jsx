@@ -78,63 +78,155 @@ const Article = () => {
                     </div>
 
                     <div class="article-text">
-                        •	Lesson 1: Preparing for Climate-Related Impacts
-                        While mitigation efforts aim to reduce greenhouse gas emissions, climate change is already happening, and we need to adapt to its impacts. Adaptation strategies involve taking actions to reduce the vulnerability of communities and ecosystems to climate change.
-                        Importance of Climate Change Adaptation
-                        •	Reducing Vulnerability: Adaptation can help reduce the negative impacts of climate change on communities, infrastructure, and ecosystems.
-                        •	Protecting Human Health: Adaptation measures can protect human health by reducing the risk of heat-related illnesses, waterborne diseases, and other health hazards.
-                        •	Ensuring Economic Resilience: Adaptation can help ensure the long-term sustainability of economies by protecting critical infrastructure and industries.
-                        Strategies for Preparing for Climate-Related Impacts
-                        •	Infrastructure Development: Investing in climate-resilient infrastructure, such as flood-resistant buildings, seawalls, and stormwater management systems.
-                        •	Early Warning Systems: Developing and implementing early warning systems for extreme weather events, such as hurricanes, floods, and droughts.
-                        •	Emergency Preparedness: Preparing emergency plans and evacuation routes to respond effectively to climate-related disasters.
-                        •	Water Resource Management: Ensuring access to clean water and developing strategies for managing water resources in the face of changing rainfall patterns.
-                        •	Coastal Protection: Implementing measures to protect coastal areas from sea level rise, such as beach nourishment and building setbacks.
-                        	Activity: Develop a disaster preparedness plan for your school or community
-                        	Reference: Federal Emergency Management Agency (FEMA), Disaster Preparedness: https://www.fema.gov/
-                        •	Lesson 2: Building Resilience in Communities
-                        Building resilience in communities is essential for coping with the impacts of climate change. Community-based adaptation strategies can empower local communities to adapt to changing conditions and reduce their vulnerability.
-                        Community-Based Adaptation Strategies
-                        •	Participatory Planning: Involving community members in planning and decision-making processes to ensure that adaptation measures are tailored to local needs and priorities.
-                        •	Early Warning Systems: Developing and implementing community-based early warning systems to alert residents of impending hazards.
-                        •	Disaster Preparedness: Preparing emergency plans and evacuation routes to respond effectively to climate-related disasters.
-                        •	Community-Based Infrastructure: Investing in community-based infrastructure, such as rainwater harvesting systems, community gardens, and solar energy projects.
-                        •	Knowledge Sharing and Capacity Building: Providing training and education to community members on climate change adaptation and disaster preparedness.
-                        Promoting Sustainable Development
-                        Sustainable development is essential for building resilience to climate change. It involves meeting the needs of the present without compromising the ability of future generations to meet their own needs. Sustainable development strategies can include:
-                        •	Economic Diversification: Promoting economic diversification to reduce dependence on climate-sensitive sectors.
-                        •	Social Inclusion: Ensuring that all community members have access to resources and opportunities.
-                        •	Environmental Protection: Protecting natural ecosystems and biodiversity.
-                        	Activity: Research and discuss successful adaptation initiatives in different regions
-                        	Reference: United Nations Framework Convention on Climate Change (UNFCCC), Adaptation: [invalid URL removed]
-                        •	Lesson 3: Climate-Smart Agriculture and Forestry
-                        Agriculture and forestry are vital sectors that play a crucial role in food security, livelihoods, and climate regulation. Climate-smart agriculture and forestry practices can help ensure the sustainability of these sectors in the face of climate change.
-                        Sustainable Farming and Forestry Practices
-                        •	Agroforestry: Integrating trees with crops to enhance biodiversity, improve soil health, and reduce erosion.
-                        •	Conservation Agriculture: Minimizing soil disturbance, maintaining crop cover, and using cover crops to improve soil health and reduce greenhouse gas emissions.
-                        •	Precision Agriculture: Using technology to optimize agricultural practices, reduce inputs, and improve yields.
-                        •	Sustainable Forest Management: Managing forests in a way that balances economic, social, and environmental objectives.
-                        •	Climate-Smart Land Use Planning: Developing land use plans that consider climate change impacts and promote sustainable practices.
+                        <p class='first'>
+                            While mitigation efforts aim to reduce greenhouse gas emissions, climate change is already happening, and we need to adapt to its impacts. Adaptation strategies involve taking actions to reduce the vulnerability of communities and ecosystems to climate change.
+                        </p>
+                        <strong>
+                            Importance of Climate Change Adaptation
+                        </strong>
+                        <p>
+                            <strong>o	Reducing Vulnerability: </strong>Adaptation can help reduce the negative impacts of climate change on communities, infrastructure, and ecosystems.
+                        </p>
+                        <p>
+                            <strong>o	Protecting Human Health: </strong>Adaptation measures can protect human health by reducing the risk of heat-related illnesses, waterborne diseases, and other health hazards.
+                        </p>
+                        <p>
+                            <strong>o	Ensuring Economic Resilience: </strong>Adaptation can help ensure the long-term sustainability of economies by protecting critical infrastructure and industries.
+                        </p>
+                        <strong>
+                            Strategies for Preparing for Climate-Related Impacts
+                        </strong>
+                        <p>
+                            <strong>o	Infrastructure Development: </strong>Investing in climate-resilient infrastructure, such as flood-resistant buildings, seawalls, and stormwater management systems.
+                        </p>
+                        <p>
+                            <strong>o	Early Warning Systems: </strong>Developing and implementing early warning systems for extreme weather events, such as hurricanes, floods, and droughts.
+                        </p>
+                        <p>
+                            <strong>o	Emergency Preparedness: </strong>Preparing emergency plans and evacuation routes to respond effectively to climate-related disasters.
+                        </p>
+                        <p>
+                            <strong>o	Water Resource Management: </strong>Ensuring access to clean water and developing strategies for managing water resources in the face of changing rainfall patterns.
+                        </p>
+                        <p>
+                            <strong>o	Coastal Protection: </strong>Implementing measures to protect coastal areas from sea level rise, such as beach nourishment and building setbacks.
+                        </p>
+                        <div class="byline">
+                            Part 2: Building Resilience in Communities
+                        </div>
+                        <p>
+                            Building resilience in communities is essential for coping with the impacts of climate change. Community-based adaptation strategies can empower local communities to adapt to changing conditions and reduce their vulnerability.
+                        </p>
+                        <strong>
+                            Community-Based Adaptation Strategies
+                        </strong>
+                        <p>
+                            <strong>o	Participatory Planning: </strong>Involving community members in planning and decision-making processes to ensure that adaptation measures are tailored to local needs and priorities.
+                        </p>
+                        <p>
+                            <strong>o	Early Warning Systems: </strong>Developing and implementing community-based early warning systems to alert residents of impending hazards.
+                        </p>
+                        <p>
+                            <strong>o	Disaster Preparedness: </strong>Preparing emergency plans and evacuation routes to respond effectively to climate-related disasters.
+                        </p>
+                        <p>
+                            <strong>o	Community-Based Infrastructure: </strong>Investing in community-based infrastructure, such as rainwater harvesting systems, community gardens, and solar energy projects.
+                        </p>
+                        <p>
+                            <strong>o	Knowledge Sharing and Capacity Building: </strong>Providing training and education to community members on climate change adaptation and disaster preparedness.
+                        </p>
+                        <strong>
+                            Promoting Sustainable Development
+                        </strong>
+                        <p>
+                            Sustainable development is essential for building resilience to climate change. It involves meeting the needs of the present without compromising the ability of future generations to meet their own needs. Sustainable development strategies can include:
+                        </p>
+                        <p>
+                            <strong>o	Economic Diversification: </strong>Promoting economic diversification to reduce dependence on climate-sensitive sectors.
+                        </p>
+                        <p>
+                            <strong>o	Social Inclusion: </strong>Ensuring that all community members have access to resources and opportunities.
+                        </p>
+                        <p>
+                            <strong>o	Environmental Protection: </strong>Protecting natural ecosystems and biodiversity.
+                        </p>
+                        <div class="byline">
+                            Part 3: Climate-Smart Agriculture and Forestry
+                        </div>
+                        <p>
+                            Agriculture and forestry are vital sectors that play a crucial role in food security, livelihoods, and climate regulation. Climate-smart agriculture and forestry practices can help ensure the sustainability of these sectors in the face of climate change.
+                        </p>
+                        <p>
+                            Sustainable Farming and Forestry Practices
+                        </p>
+                        <p>
+                            <strong>o	Agroforestry: </strong>Integrating trees with crops to enhance biodiversity, improve soil health, and reduce erosion.
+                        </p>
+                        <p>
+                            <strong>o	Conservation Agriculture: </strong>Minimizing soil disturbance, maintaining crop cover, and using cover crops to improve soil health and reduce greenhouse gas emissions.
+                        </p>
+                        <p>
+                            <strong>o	Precision Agriculture: </strong>Using technology to optimize agricultural practices, reduce inputs, and improve yields.
+                        </p>
+                        <p>
+                            <strong>o	Sustainable Forest Management: </strong>Managing forests in a way that balances economic, social, and environmental objectives.
+                        </p>
+                        <p>
+                            <strong>o	Climate-Smart Land Use Planning: </strong>Developing land use plans that consider climate change impacts and promote sustainable practices.
+                        </p>
                         Adapting to Changing Climate Conditions
-                        •	Drought Tolerance: Developing drought-tolerant crop varieties and implementing water-saving irrigation practices.
-                        •	Heat Stress Management: Protecting crops and livestock from heat stress through shade, irrigation, and genetic selection.
-                        •	Pest and Disease Management: Adapting pest and disease control strategies to changing climate conditions.
-                        •	Climate-Smart Livestock Management: Implementing sustainable livestock practices that reduce greenhouse gas emissions and improve animal welfare.
-                        	Activity: Design a sustainable agriculture project
-                        	Reference: Food and Agriculture Organization of the United Nations (FAO), Climate-Smart Agriculture: https://www.fao.org/climate-smart-agriculture/en/
-                        •	Lesson 4: Disaster Risk Reduction
-                        Disaster risk reduction (DRR) involves taking proactive measures to reduce the impact of disasters on communities. By implementing DRR strategies, we can protect lives, property, and livelihoods from climate-related hazards.
-                        Importance of Disaster Risk Reduction
-                        •	Saving Lives: DRR can help prevent loss of life and injuries during disasters.
-                        •	Protecting Property and Infrastructure: DRR can reduce damage to property, infrastructure, and livelihoods.
-                        •	Ensuring Economic Recovery: DRR can facilitate faster and more effective recovery from disasters.
-                        Strategies for Disaster Risk Reduction
-                        •	Early Warning Systems: Developing and implementing effective early warning systems to alert communities of impending disasters.
-                        •	Land Use Planning: Ensuring that land use plans consider disaster risks and promote sustainable development.
-                        •	Infrastructure Resilience: Building infrastructure that is resilient to disasters, such as flood-resistant buildings and storm-resistant infrastructure.
-                        •	Community Preparedness: Empowering communities to prepare for and respond to disasters through training, education, and drills.
-                        •	Disaster Risk Assessment: Conduct regular assessments to identify vulnerabilities and prioritize risk reduction measures.
-
+                        <p>
+                            <strong>o	Drought Tolerance: </strong>Developing drought-tolerant crop varieties and implementing water-saving irrigation practices.
+                        </p>
+                        <p>
+                            <strong>o	Heat Stress Management: </strong>Protecting crops and livestock from heat stress through shade, irrigation, and genetic selection.
+                        </p>
+                        <p>
+                            <strong>o	Pest and Disease Management: </strong>Adapting pest and disease control strategies to changing climate conditions.
+                        </p>
+                        <p>
+                            <strong>o	Climate-Smart Livestock Management: </strong>Implementing sustainable livestock practices that reduce greenhouse gas emissions and improve animal welfare.
+                        </p>
+                        <p>
+                            	Activity: Design a sustainable agriculture project
+                        </p>
+                        <p>
+                            	Reference: Food and Agriculture Organization of the United Nations (FAO), Climate-Smart Agriculture: https://www.fao.org/climate-smart-agriculture/en/
+                        </p>
+                        o	Lesson 4: Disaster Risk Reduction
+                        <p>
+                            Disaster risk reduction (DRR) involves taking proactive measures to reduce the impact of disasters on communities. By implementing DRR strategies, we can protect lives, property, and livelihoods from climate-related hazards.
+                        </p>
+                        <p>
+                            Importance of Disaster Risk Reduction
+                        </p>
+                        <p>
+                            <strong>o	Saving Lives: </strong>DRR can help prevent loss of life and injuries during disasters.
+                        </p>
+                        <p>
+                            <strong>o	Protecting Property and Infrastructure: </strong>DRR can reduce damage to property, infrastructure, and livelihoods.
+                        </p>
+                        <p>
+                            <strong>o	Ensuring Economic Recovery: </strong>DRR can facilitate faster and more effective recovery from disasters.
+                        </p>
+                        <p>
+                            Strategies for Disaster Risk Reduction
+                        </p>
+                        <p>
+                            <strong>o	Early Warning Systems: </strong>Developing and implementing effective early warning systems to alert communities of impending disasters.
+                        </p>
+                        <p>
+                            <strong>o	Land Use Planning: </strong>Ensuring that land use plans consider disaster risks and promote sustainable development.
+                        </p>
+                        <p>
+                            <strong>o	Infrastructure Resilience: </strong>Building infrastructure that is resilient to disasters, such as flood-resistant buildings and storm-resistant infrastructure.
+                        </p>
+                        <p>
+                            <strong>o	Community Preparedness: </strong>Empowering communities to prepare for and respond to disasters through training, education, and drills.
+                        </p>
+                        <p>
+                            <strong>o	Disaster Risk Assessment: </strong>Conduct regular assessments to identify vulnerabilities and prioritize risk reduction measures.
+                        </p>
 
                         <div class="game">
                             <h1>
@@ -148,31 +240,7 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='https://climatekids.nasa.gov/coral-bleaching/' target='_blank'>Coral Bleaching</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://climatekids.nasa.gov/cubesat-builder-game/' target='_blank'>Spacecraft Builder</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://spaceplace.nasa.gov/ocean-currents/en/' target='_blank'>Flow with Ocean</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://scied.ucar.edu/interactive/albedo-brightness' target='_blank'>Albedo</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
+                                    <a href='https://pbskids.org/games/nature/' target='_blank'>Nature</a>
                                 </li>
                             </ul>
 

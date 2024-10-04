@@ -169,6 +169,10 @@
 }
 
 .Plan-main .tabs .tab-content h2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: var(--highlight);
     font-family: 'Lobster', cursive;
     font-size: 1.6rem;
@@ -182,6 +186,17 @@
 .Plan-main .tabs .tab-content h2:hover {
     color: var(--secondary);
     text-decoration: underline wavy var(--bright);
+}
+
+.Plan-main .tabs .tab-content h2 img {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.Plan-main .tabs .tab-content h2 img:nth-child(1) {
+    width: 3rem;
+    margin-right: 1rem;
+    rotate: -45deg;
 }
 
 .Plan-main .tabs .tab-content h3,
