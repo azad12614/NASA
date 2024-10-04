@@ -97,7 +97,7 @@ const Article = () => {
                             Strategies for Preparing for Climate-Related Impacts
                         </strong>
                         <p>
-                            <strong>o	Infrastructure Development: </strong>Investing in climate-resilient infrastructure, such as flood-resistant buildings, seawalls, and stormwater management systems.
+                            <strong>o	Infrastructure Development: </strong>Investing in climate-resilient infrastructure, such as flood-resistant buildings, seawalls, and storm water management systems.
                         </p>
                         <p>
                             <strong>o	Early Warning Systems: </strong>Developing and implementing early warning systems for extreme weather events, such as hurricanes, floods, and droughts.
@@ -114,7 +114,7 @@ const Article = () => {
                         <div class="byline">
                             Part 2: Building Resilience in Communities
                         </div>
-                        <p>
+                        <p class="first">
                             Building resilience in communities is essential for coping with the impacts of climate change. Community-based adaptation strategies can empower local communities to adapt to changing conditions and reduce their vulnerability.
                         </p>
                         <strong>
@@ -153,14 +153,14 @@ const Article = () => {
                         <div class="byline">
                             Part 3: Climate-Smart Agriculture and Forestry
                         </div>
-                        <p>
+                        <p class="first">
                             Agriculture and forestry are vital sectors that play a crucial role in food security, livelihoods, and climate regulation. Climate-smart agriculture and forestry practices can help ensure the sustainability of these sectors in the face of climate change.
                         </p>
-                        <p>
+                        <strong>
                             Sustainable Farming and Forestry Practices
-                        </p>
+                        </strong>
                         <p>
-                            <strong>o	Agroforestry: </strong>Integrating trees with crops to enhance biodiversity, improve soil health, and reduce erosion.
+                            <strong>o	Agro-forestry: </strong>Integrating trees with crops to enhance biodiversity, improve soil health, and reduce erosion.
                         </p>
                         <p>
                             <strong>o	Conservation Agriculture: </strong>Minimizing soil disturbance, maintaining crop cover, and using cover crops to improve soil health and reduce greenhouse gas emissions.
@@ -174,7 +174,9 @@ const Article = () => {
                         <p>
                             <strong>o	Climate-Smart Land Use Planning: </strong>Developing land use plans that consider climate change impacts and promote sustainable practices.
                         </p>
-                        Adapting to Changing Climate Conditions
+                        <strong>
+                            Adapting to Changing Climate Conditions
+                        </strong>
                         <p>
                             <strong>o	Drought Tolerance: </strong>Developing drought-tolerant crop varieties and implementing water-saving irrigation practices.
                         </p>
@@ -187,19 +189,15 @@ const Article = () => {
                         <p>
                             <strong>o	Climate-Smart Livestock Management: </strong>Implementing sustainable livestock practices that reduce greenhouse gas emissions and improve animal welfare.
                         </p>
-                        <p>
-                            	Activity: Design a sustainable agriculture project
-                        </p>
-                        <p>
-                            	Reference: Food and Agriculture Organization of the United Nations (FAO), Climate-Smart Agriculture: https://www.fao.org/climate-smart-agriculture/en/
-                        </p>
-                        o	Lesson 4: Disaster Risk Reduction
-                        <p>
+                        <div class="byline">
+                            Part 4: Disaster Risk Reduction
+                        </div>
+                        <p class="first">
                             Disaster risk reduction (DRR) involves taking proactive measures to reduce the impact of disasters on communities. By implementing DRR strategies, we can protect lives, property, and livelihoods from climate-related hazards.
                         </p>
-                        <p>
+                        <strong>
                             Importance of Disaster Risk Reduction
-                        </p>
+                        </strong>
                         <p>
                             <strong>o	Saving Lives: </strong>DRR can help prevent loss of life and injuries during disasters.
                         </p>
@@ -209,9 +207,9 @@ const Article = () => {
                         <p>
                             <strong>o	Ensuring Economic Recovery: </strong>DRR can facilitate faster and more effective recovery from disasters.
                         </p>
-                        <p>
+                        <strong>
                             Strategies for Disaster Risk Reduction
-                        </p>
+                        </strong>
                         <p>
                             <strong>o	Early Warning Systems: </strong>Developing and implementing effective early warning systems to alert communities of impending disasters.
                         </p>

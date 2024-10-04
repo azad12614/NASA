@@ -78,67 +78,150 @@ const Article = () => {
                     </div>
 
                     <div class="article-text">
-
-                        	Lesson 0: The Scientific Consensus
-                        The Overwhelming Scientific Agreement on Climate Change
-                        	Climate change is a well-established scientific fact. There is a strong consensus among the vast majority of climate scientists that global warming is real and primarily caused by human activities. This consensus is based on decades of research and evidence from numerous studies.
-                        	The Intergovernmental Panel on Climate Change (IPCC), a leading international body for assessing the science related to climate change, has consistently concluded that human activities are the main cause of observed global warming.
-                        	Scientific organizations worldwide, including the American Association for the Advancement of Science (AAAS), the National Academy of Sciences, and the Royal Society, have endorsed the scientific consensus on climate change.
-                        The Role of Scientists in Studying and Addressing Climate Change
-                        	Research and data collection: Scientists play a crucial role in studying climate change by collecting and analyzing data from various sources, such as temperature records, ice cores, and satellite observations. This data helps them understand the causes, impacts, and potential future consequences of climate change.
-                        	Modeling and prediction: Climate scientists use computer models to simulate the Earth's climate system and predict future climate changes. These models help us understand how different factors, such as greenhouse gas emissions and ocean currents, influence climate.
-                        	Developing solutions: Scientists are also working to develop solutions to address climate change, such as renewable energy technologies, carbon capture and storage, and climate adaptation strategies.
-                        Activity: Debate: Is Climate Change a Natural Phenomenon or Caused by Human Activities?
-                        Reference: American Association for the Advancement of Science (AAAS), What is Climate Change?
-                        	The AAAS is a leading scientific society that has published numerous resources on climate change. Their website provides comprehensive information on the causes, impacts, and solutions to climate change.
-                        	Visit the AAAS website to learn more about climate change and access their resources: https://www.aaas.org/news/aaas-climate-change-resources
-
-                        •	Lesson 1: The Paris Agreement
-                        The Paris Agreement is a landmark international agreement that aims to combat climate change by reducing greenhouse gas emissions and promoting sustainable development. It was adopted by 196 countries in 2015 and entered into force in 2016.
-                        Goals and Objectives of the Paris Agreement
-                        •	Hold global temperature increase to well below 2 degrees Celsius above pre-industrial levels and pursue efforts to limit it to 1.5 degrees Celsius.
-                        •	Increase the ability of countries to adapt to the adverse impacts of climate change.
-                        •	Make finance flows consistent with a pathway towards low greenhouse gas emissions and climate-resilient development.
-                        Progress Made and Challenges Faced
-                        •	Increased Ambition: Many countries have submitted updated national climate plans (Nationally Determined Contributions, or NDCs) with more ambitious emissions reduction targets.
-                        •	Global Climate Action: A range of climate initiatives and partnerships have been launched to support countries in achieving their climate goals.
-                        •	Challenges:
-                        o	Insufficient Ambition: Despite progress, current NDCs are not sufficient to meet the Paris Agreement's temperature goals.
-                        o	Financial Gap: There is a significant financial gap between the resources needed to implement climate action and the resources currently available.
-                        o	Implementation Challenges: Many countries face challenges in implementing their climate policies and actions.
-                        	Activity: Analyze the key provisions of the Paris Agreement
-                        	Reference: United Nations Framework Convention on Climate Change (UNFCCC), Paris Agreement: https://unfccc.int/paris-agreement
-                        •	Lesson 2: National Climate Policies
-                        Countries around the world have adopted a variety of climate policies to address climate change. These policies can vary in scope, ambition, and effectiveness. In this lesson, we will examine national climate policies and assess their impact on greenhouse gas emissions and climate resilience.
-                        Climate Policies in Different Countries
-                        •	Carbon Pricing: Implementing carbon pricing mechanisms, such as carbon taxes or emissions trading schemes, to put a price on carbon emissions.
-                        •	Renewable Energy Targets: Setting ambitious targets for renewable energy deployment and providing incentives for renewable energy projects.
-                        •	Energy Efficiency Standards: Enacting energy efficiency standards for buildings, appliances, and vehicles to reduce energy consumption.
-                        •	Transportation Policies: Promoting sustainable transportation options, such as public transit, cycling, and walking, and encouraging the adoption of electric vehicles.
-                        •	Land Use Planning: Implementing land use policies that protect forests, promote sustainable agriculture, and reduce the risk of natural disasters.
-                        •	Climate Adaptation: Developing and implementing climate adaptation strategies to prepare for and respond to the impacts of climate change.
-                        Effectiveness of National Climate Actions
-                        •	Emissions Reductions: Assessing the effectiveness of climate policies in reducing greenhouse gas emissions.
-                        •	Climate Resilience: Evaluating the extent to which climate policies contribute to building climate resilience.
-                        •	Economic Impacts: Analyzing the economic impacts of climate policies, including job creation, economic growth, and competitiveness.
-                        •	Social Equity: Assessing the distributional impacts of climate policies and ensuring that they do not disproportionately burden vulnerable populations.
-                        	Activity: Compare and contrast climate policies of different countries
-                        	Reference: Climate Action Tracker: https://climateactiontracker.org/
-                        •	Lesson 3: The Role of Businesses and Corporations
-                        Businesses and corporations have a significant role to play in addressing climate change. Corporate social responsibility (CSR) is a framework that encourages companies to consider the social and environmental impacts of their operations. By adopting sustainable business practices, businesses can contribute to climate mitigation and adaptation.
-                        Corporate Social Responsibility and Climate Action
-                        •	Climate Leadership: Businesses can demonstrate leadership on climate change by setting ambitious emissions reduction targets and implementing sustainable practices.
-                        •	Supply Chain Management: Companies can work with suppliers to reduce their environmental footprint and ensure that their supply chains are sustainable.
-                        •	Product Stewardship: Designing and producing products that are more energy efficient and have a lower environmental impact.
-                        •	Community Engagement: Engaging with communities to address climate change-related challenges and support sustainable development.
-                        Sustainable Business Practices
-                        •	Renewable Energy: Investing in renewable energy sources to reduce greenhouse gas emissions.
-                        •	Energy Efficiency: Implementing energy-efficient practices to reduce energy consumption.
-                        •	Waste Reduction and Recycling: Minimizing waste generation and recycling materials to conserve resources.
-                        •	Sustainable Sourcing: Sourcing materials and products from suppliers that prioritize sustainability.
-                        •	Climate Risk Management: Assessing and managing climate-related risks to business operations.
-                        	Activity: Research and evaluate the environmental performance of major corporations
-                        	Reference: CDP: https://www.cdp.net/
+                        <strong>
+                            The Overwhelming Scientific Agreement on Climate Change
+                        </strong>
+                        <p>
+                            <strong>o	</strong>Climate change is a well-established scientific fact. There is a strong consensus among the vast majority of climate scientists that global warming is real and primarily caused by human activities. This consensus is based on decades of research and evidence from numerous studies.
+                        </p>
+                        <p>
+                            <strong>o	</strong>The Intergovernmental Panel on Climate Change (IPCC), a leading international body for assessing the science related to climate change, has consistently concluded that human activities are the main cause of observed global warming.
+                        </p>
+                        <p>
+                            <strong>o	</strong>Scientific organizations worldwide, including the American Association for the Advancement of Science (AAAS), the National Academy of Sciences, and the Royal Society, have endorsed the scientific consensus on climate change.
+                        </p>
+                        <strong>
+                            The Role of Scientists in Studying and Addressing Climate Change
+                        </strong>
+                        <p>
+                            <strong>•	Research and data collection: </strong>Scientists play a crucial role in studying climate change by collecting and analyzing data from various sources, such as temperature records, ice cores, and satellite observations. This data helps them understand the causes, impacts, and potential future consequences of climate change.
+                        </p>
+                        <p>
+                            <strong>•	Modeling and prediction: </strong>Climate scientists use computer models to simulate the Earth's climate system and predict future climate changes. These models help us understand how different factors, such as greenhouse gas emissions and ocean currents, influence climate.
+                        </p>
+                        <p>
+                            <strong>•	Developing solutions: </strong>Scientists are also working to develop solutions to address climate change, such as renewable energy technologies, carbon capture and storage, and climate adaptation strategies.
+                        </p>
+                        <div class='byline'>
+                            Part 2: The Paris Agreement
+                        </div>
+                        <p class="first">
+                            The Paris Agreement is a landmark international agreement that aims to combat climate change by reducing greenhouse gas emissions and promoting sustainable development. It was adopted by 196 countries in 2015 and entered into force in 2016.
+                        </p>
+                        <strong>
+                            Goals and Objectives of the Paris Agreement
+                        </strong>
+                        <p>
+                            <strong>o	</strong>Hold global temperature increase to well below 2 degrees Celsius above pre-industrial levels and pursue efforts to limit it to 1.5 degrees Celsius.
+                        </p>
+                        <p>
+                            <strong>o	</strong>Increase the ability of countries to adapt to the adverse impacts of climate change.
+                        </p>
+                        <p>
+                            <strong>o	</strong>Make finance flows consistent with a pathway towards low greenhouse gas emissions and climate-resilient development.
+                        </p>
+                        <strong>
+                            Progress Made and Challenges Faced
+                        </strong>
+                        <p>
+                            <strong>•	Increased Ambition: </strong>Many countries have submitted updated national climate plans (Nationally Determined Contributions, or NDCs) with more ambitious emissions reduction targets.
+                        </p>
+                        <p>
+                            <strong>•	Global Climate Action: </strong>A range of climate initiatives and partnerships have been launched to support countries in achieving their climate goals.
+                        </p>
+                        <strong>
+                            Challenges
+                        </strong>
+                        <p>
+                            <strong>•	Insufficient Ambition: </strong>Despite progress, current NDCs are not sufficient to meet the Paris Agreement's temperature goals.
+                        </p>
+                        <p>
+                            <strong>•	Financial Gap: </strong>There is a significant financial gap between the resources needed to implement climate action and the resources currently available.
+                        </p>
+                        <p>
+                            <strong>•	Implementation Challenges: </strong>Many countries face challenges in implementing their climate policies and actions.
+                        </p>
+                        <div class="byline">
+                            Part 3: National Climate Policies
+                        </div>
+                        <p class='first'>
+                            Countries around the world have adopted a variety of climate policies to address climate change. These policies can vary in scope, ambition, and effectiveness. In this lesson, we will examine national climate policies and assess their impact on greenhouse gas emissions and climate resilience.
+                        </p>
+                        <strong>
+                            Climate Policies in Different Countries
+                        </strong>
+                        <p>
+                            <strong>•	Carbon Pricing: </strong>Implementing carbon pricing mechanisms, such as carbon taxes or emissions trading schemes, to put a price on carbon emissions.
+                        </p>
+                        <p>
+                            <strong>•	Renewable Energy Targets: </strong>Setting ambitious targets for renewable energy deployment and providing incentives for renewable energy projects.
+                        </p>
+                        <p>
+                            <strong>•	Energy Efficiency Standards: </strong>Enacting energy efficiency standards for buildings, appliances, and vehicles to reduce energy consumption.
+                        </p>
+                        <p>
+                            <strong>•	Transportation Policies: </strong>Promoting sustainable transportation options, such as public transit, cycling, and walking, and encouraging the adoption of electric vehicles.
+                        </p>
+                        <p>
+                            <strong>•	Land Use Planning: </strong>Implementing land use policies that protect forests, promote sustainable agriculture, and reduce the risk of natural disasters.
+                        </p>
+                        <p>
+                            <strong>•	Climate Adaptation: </strong>Developing and implementing climate adaptation strategies to prepare for and respond to the impacts of climate change.
+                        </p>
+                        <strong>
+                            Effectiveness of National Climate Actions
+                        </strong>
+                        <p>
+                            <strong>•	Emissions Reductions: </strong>Assessing the effectiveness of climate policies in reducing greenhouse gas emissions.
+                        </p>
+                        <p>
+                            <strong>•	Climate Resilience: </strong>Evaluating the extent to which climate policies contribute to building climate resilience.
+                        </p>
+                        <p>
+                            <strong>•	Economic Impacts: </strong>Analyzing the economic impacts of climate policies, including job creation, economic growth, and competitiveness.
+                        </p>
+                        <p>
+                            <strong>•	Social Equity: </strong>Assessing the distributional impacts of climate policies and ensuring that they do not disproportionately burden vulnerable populations.
+                        </p>
+                        <div class='byline'>
+                            Part 4: The Role of Businesses and Corporations
+                        </div>
+                        <p class='first'>
+                            Businesses and corporations have a significant role to play in addressing climate change. Corporate social responsibility (CSR) is a framework that encourages companies to consider the social and environmental impacts of their operations. By adopting sustainable business practices, businesses can contribute to climate mitigation and adaptation.
+                        </p>
+                        <strong>
+                            Corporate Social Responsibility and Climate Action
+                        </strong>
+                        <p>
+                            <strong>•	Climate Leadership: </strong>Businesses can demonstrate leadership on climate change by setting ambitious emissions reduction targets and implementing sustainable practices.
+                        </p>
+                        <p>
+                            <strong>•	Supply Chain Management: </strong>Companies can work with suppliers to reduce their environmental footprint and ensure that their supply chains are sustainable.
+                        </p>
+                        <p>
+                            <strong>•	Product Stewardship: </strong>Designing and producing products that are more energy efficient and have a lower environmental impact.
+                        </p>
+                        <p>
+                            <strong>•	Community Engagement: </strong>Engaging with communities to address climate change-related challenges and support sustainable development.
+                        </p>
+                        <strong>
+                            Sustainable Business Practices
+                        </strong>
+                        <p>
+                            <strong>•	Renewable Energy: </strong>Investing in renewable energy sources to reduce greenhouse gas emissions.
+                        </p>
+                        <p>
+                            <strong>•	Energy Efficiency: </strong>Implementing energy-efficient practices to reduce energy consumption.
+                        </p>
+                        <p>
+                            <strong>•	Waste Reduction and Recycling: </strong>Minimizing waste generation and recycling materials to conserve resources.
+                        </p>
+                        <p>
+                            <strong>•	Sustainable Sourcing: </strong>Sourcing materials and products from suppliers that prioritize sustainability.
+                        </p>
+                        <p>
+                            <strong>•	Climate Risk Management: </strong>Assessing and managing climate-related risks to business operations.
+                        </p>
 
 
                         <div class="game">
@@ -171,12 +254,6 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='https://scied.ucar.edu/interactive/albedo-brightness' target='_blank'>Albedo</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
                                     <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
                                 </li>
                             </ul>
@@ -193,6 +270,12 @@ const Article = () => {
                                         strategy
                                     </span>
                                     <a href='https://climatekids.nasa.gov/menu/make/' target='_blank'>NASA KIDS</a>
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        strategy
+                                    </span>
+                                    <a href='https://worldview.earthdata.nasa.gov/' target='_blank'>World View</a>
                                 </li>
                             </ul>
                         </div>
