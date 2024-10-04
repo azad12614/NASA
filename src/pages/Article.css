@@ -221,6 +221,14 @@
   padding-right: 0.2rem;
 }
 
+.article-text li {
+  color: var(--secondary);
+  font-size: 1.25rem;
+  font-weight: bold;
+  vertical-align: top;
+  padding-left: 0.2rem;
+}
+
 .article-text p span {
   color: var(--secondary);
   padding-left: 1rem;

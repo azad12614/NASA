@@ -121,137 +121,163 @@ const Article = () => {
                         <p>
                             <strong>o	Policy and Regulations: </strong>Governments can implement policies and regulations to promote clean energy, reduce emissions from industries, and encourage sustainable practices.
                         </p>
-                        <p>
-                            <strong>o	Lesson 2: </strong>Transitioning to Renewable Energy
-                        </p>
+                        <div class="byline">
+                            Part 2: Transitioning to Renewable Energy
+                        </div>
                         <p>
                             Renewable energy sources are derived from natural resources that are constantly replenished. By transitioning to renewable energy, we can reduce our reliance on fossil fuels and mitigate climate change.
                         </p>
+
+                        <h1>
+                            <span class="material-symbols-outlined">
+                                cyclone
+                            </span>
+                            Types of Renewable Energy Sources
+                        </h1>
                         <p>
-                            	Types of Renewable Energy Sources
+                            <strong>o	Solar Energy: </strong>Harnessing the power of the sun to generate electricity through solar panels.
                         </p>
                         <p>
-                            	Solar Energy: Harnessing the power of the sun to generate electricity through solar panels.
+                            <strong>o	Wind Energy: </strong>Converting the kinetic energy of the wind into electricity using wind turbines.
                         </p>
                         <p>
-                            	Wind Energy: Converting the kinetic energy of the wind into electricity using wind turbines.
+                            <strong>o	Hydropower: </strong>Generating electricity from the force of flowing water.
                         </p>
                         <p>
-                            	Hydropower: Generating electricity from the force of flowing water.
+                            <strong>o	Biomass Energy: </strong>Converting organic matter (e.g., wood, agricultural waste) into energy through combustion or fermentation.
                         </p>
                         <p>
-                            	Biomass Energy: Converting organic matter (e.g., wood, agricultural waste) into energy through combustion or fermentation.
+                            <strong>o	Geothermal Energy: </strong>Utilizing the heat from the Earth's interior to generate electricity or heat.
                         </p>
                         <p>
-                            	Geothermal Energy: Utilizing the heat from the Earth's interior to generate electricity or heat.
+                            <strong>o	Tidal and Wave Energy: </strong>Harnessing the energy from tides and waves to generate electricity.
                         </p>
+                        <h1>
+                            <span class="material-symbols-outlined">
+                                cyclone
+                            </span>
+                            Benefits of Renewable Energy
+                        </h1>
+                        <strong>Environmental Benefits:</strong>
                         <p>
-                            	Tidal and Wave Energy: Harnessing the energy from tides and waves to generate electricity.
+                            <ul>
+                                <li>
+                                    o	Reduces greenhouse gas emissions
+                                </li>
+                                <li>
+                                    o	Minimizes air and water pollution
+                                </li>
+                                <li>
+                                    o	Protects biodiversity
+                                </li>
+                            </ul>
                         </p>
+                        <strong>Economic Benefits:</strong>
                         <p>
-                            	Benefits of Renewable Energy
+                            <ul>
+                                <li>
+                                    o	Creates jobs in renewable energy industries
+                                </li>
+                                <li>
+                                    o	Reduces energy costs in the long term
+                                </li>
+                                <li>
+                                    o	Increases energy security
+                                </li>
+                            </ul>
                         </p>
+                        <strong>Social Benefits:</strong>
                         <p>
-                            	Environmental Benefits:
+                            <ul>
+                                <li>
+                                    o	Improves energy access in rural areas
+                                </li>
+                                <li>
+                                    o	Contributes to sustainable development
+                                </li>
+                            </ul>
                         </p>
-                        <p>
-                            o	Reduces greenhouse gas emissions
-                        </p>
-                        <p>
-                            o	Minimizes air and water pollution
-                        </p>
-                        <p>
-                            o	Protects biodiversity
-                        </p>
-                        <p>
-                            	Economic Benefits:
-                        </p>
-                        <p>
-                            o	Creates jobs in renewable energy industries
-                        </p>
-                        <p>
-                            o	Reduces energy costs in the long term
-                        </p>
-                        <p>
-                            o	Increases energy security
-                        </p>
-                        <p>
-                            	Social Benefits:
-                        </p>
-                        <p>
-                            o	Improves energy access in rural areas
-                        </p>
-                        <p>
-                            o	Contributes to sustainable development
-                        </p>
-                        <p>
-                            	Activity: Design a renewable energy system for your school or community
-                        </p>
-                        <p>
-                            	Reference: International Renewable Energy Agency (IRENA), Renewable Energy: https://www.irena.org/
-                        </p>
-                        <p>
-                            o	Lesson 3: Carbon Capture and Storage
-                        </p>
+                        <div class="byline">
+                            Part 3: Carbon Capture and Storage
+                        </div>
                         <p>
                             Carbon capture and storage (CCS) is a technology that can capture carbon dioxide emissions from industrial processes and store them underground. It is considered a potential tool for mitigating climate change.
                         </p>
+                        <strong>
+                            How Carbon Capture and Storage Works
+                        </strong>
                         <p>
-                            	How Carbon Capture and Storage Works
+                            <strong>o	</strong>Capture: Carbon dioxide is captured from industrial sources, such as power plants and steel mills. This can be done through various methods, including chemical absorption, physical adsorption, and membrane separation.
                         </p>
                         <p>
-                            	Capture: Carbon dioxide is captured from industrial sources, such as power plants and steel mills. This can be done through various methods, including chemical absorption, physical adsorption, and membrane separation.
+                            <strong>o	</strong>Transport: The captured carbon dioxide is transported to a storage site, often a depleted oil or gas field or a deep saline formation.
                         </p>
                         <p>
-                            	Transport: The captured carbon dioxide is transported to a storage site, often a depleted oil or gas field or a deep saline formation.
+                            <strong>o	</strong>Storage: The carbon dioxide is injected into underground reservoirs, where it is trapped and prevented from escaping into the atmosphere.
+                        </p>
+                        <strong>
+                            Potential Benefits of Carbon Capture and Storage
+                        </strong>
+                        <p>
+                            <strong>o	</strong>Reduces greenhouse gas emissions: CCS can significantly reduce greenhouse gas emissions from industrial processes, contributing to climate change mitigation.
                         </p>
                         <p>
-                            	Storage: The carbon dioxide is injected into underground reservoirs, where it is trapped and prevented from escaping into the atmosphere.
+                            <strong>o	</strong>Enables continued use of fossil fuels: CCS can allow for the continued use of fossil fuels while reducing their environmental impact.
                         </p>
                         <p>
-                            	Potential Benefits of Carbon Capture and Storage
+                            <strong>o	</strong>Promotes economic development: CCS can create jobs in the energy sector and support economic growth.
+                        </p>
+                        <strong>
+                            Challenges of Carbon Capture and Storage
+                        </strong>
+                        <p>
+                            <strong>o	</strong>High costs: Implementing CCS technology can be expensive, especially for large-scale projects.
                         </p>
                         <p>
-                            	Reduces greenhouse gas emissions: CCS can significantly reduce greenhouse gas emissions from industrial processes, contributing to climate change mitigation.
+                            <strong>o	</strong>Technological limitations: There are still technological challenges associated with capturing, transporting, and storing carbon dioxide at a large scale.
                         </p>
                         <p>
-                            	Enables continued use of fossil fuels: CCS can allow for the continued use of fossil fuels while reducing their environmental impact.
+                            <strong>o	</strong>Environmental concerns: Some concerns have been raised about the potential environmental impacts of CCS, such as leakage of carbon dioxide into the atmosphere or contamination of groundwater.
+                        </p>
+                        <div class="byline">
+                            Part 4: Sustainable land use practices
+                        </div>
+                        <p>
+                            Land use practices play a significant role in climate change. Sustainable land use practices can help mitigate greenhouse gas emissions, protect biodiversity, and ensure the long-term sustainability of our planet.
+                        </p>
+                        <strong>
+                            Importance of Sustainable Land Use
+                        </strong>
+                        <p>
+                            <strong>o	Climate Change Mitigation: </strong>Forests and other natural ecosystems absorb carbon dioxide from the atmosphere, helping to mitigate climate change. Sustainable land use practices protect these ecosystems and enhance their carbon sequestration capacity.
                         </p>
                         <p>
-                            	Promotes economic development: CCS can create jobs in the energy sector and support economic growth.
+                            <strong>o	Biodiversity Conservation: </strong>Sustainable land use practices can help protect biodiversity by preserving habitats for plants and animals.
                         </p>
                         <p>
-                            	Challenges of Carbon Capture and Storage
+                            <strong>o	Soil Health: </strong>Sustainable land management practices can improve soil health, which is essential for agricultural productivity and ecosystem resilience.
                         </p>
                         <p>
-                            	High costs: Implementing CCS technology can be expensive, especially for large-scale projects.
+                            <strong>o	Water Resources Management: </strong>Sustainable land use practices can help manage water resources effectively, preventing soil erosion, water pollution, and flooding.
+                        </p>
+                        <strong>
+                            Strategies for Sustainable Land Use
+                        </strong>
+                        <p>
+                            <strong>o	Reforestation and Afforestation: </strong>Planting trees to restore forests and increase carbon sequestration.
                         </p>
                         <p>
-                            	Technological limitations: There are still technological challenges associated with capturing, transporting, and storing carbon dioxide at a large scale.
+                            <strong>o	Sustainable Agriculture: </strong>Adopting sustainable farming practices that minimize soil erosion, reduce water pollution, and conserve biodiversity.
                         </p>
                         <p>
-                            	Environmental concerns: Some concerns have been raised about the potential environmental impacts of CCS, such as leakage of carbon dioxide into the atmosphere or contamination of groundwater.
+                            <strong>o	Protected Areas: </strong>Establishing protected areas, such as national parks and wildlife sanctuaries, to conserve natural ecosystems.
                         </p>
                         <p>
-                            	Activity: Research and debate the pros and cons of carbon capture and storage
+                            <strong>o	Urban Planning: </strong>Promoting sustainable urban development that reduces sprawl, encourages public transportation, and incorporates green spaces.
                         </p>
                         <p>
-                            	Reference: Global Carbon Project: https://www.globalcarbonproject.org/
+                            <strong>o	Land Use Planning: </strong>Developing land use plans that consider environmental, social, and economic factors.
                         </p>
-                        o	Lesson 4: Sustainable land use practices
-                        Land use practices play a significant role in climate change. Sustainable land use practices can help mitigate greenhouse gas emissions, protect biodiversity, and ensure the long-term sustainability of our planet.
-                        	Importance of Sustainable Land Use
-                        	Climate Change Mitigation: Forests and other natural ecosystems absorb carbon dioxide from the atmosphere, helping to mitigate climate change. Sustainable land use practices protect these ecosystems and enhance their carbon sequestration capacity.
-                        	Biodiversity Conservation: Sustainable land use practices can help protect biodiversity by preserving habitats for plants and animals.
-                        	Soil Health: Sustainable land management practices can improve soil health, which is essential for agricultural productivity and ecosystem resilience.
-                        	Water Resources Management: Sustainable land use practices can help manage water resources effectively, preventing soil erosion, water pollution, and flooding.
-                        	Strategies for Sustainable Land Use
-                        	Reforestation and Afforestation: Planting trees to restore forests and increase carbon sequestration.
-                        	Sustainable Agriculture: Adopting sustainable farming practices that minimize soil erosion, reduce water pollution, and conserve biodiversity.
-                        	Protected Areas: Establishing protected areas, such as national parks and wildlife sanctuaries, to conserve natural ecosystems.
-                        	Urban Planning: Promoting sustainable urban development that reduces sprawl, encourages public transportation, and incorporates green spaces.
-                        	Land Use Planning: Developing land use plans that consider environmental, social, and economic factors.
-
 
                         <div class="game">
                             <h1>
@@ -265,7 +291,7 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
-                                    <a href='' target='_blank'>hello</a>
+                                    <a href='https://www.washingtonpost.com/climate-environment/interactive/2024/global-heat-sea-surface-temperature-records/' target='_blank'>Guess the Heat</a>
                                 </li>
                             </ul>
 

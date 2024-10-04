@@ -65,7 +65,7 @@ const Article = () => {
                             {/* <h1>Climate Change</h1> */}
                             <div class="wrapper">
                                 <img src="https://svgshare.com/i/1B4M.svg" alt="class icon" />
-                                <h1>Adaptation <span class="mask">Strategies</span></h1>
+                                <h1 class="waviy">Adaptation <span>Strategies</span></h1>
                             </div>
                             <div class="byline">Preparing for Climate-Related Impacts</div>
                         </div>
@@ -78,7 +78,6 @@ const Article = () => {
                     </div>
 
                     <div class="article-text">
-
                         •	Lesson 1: Preparing for Climate-Related Impacts
                         While mitigation efforts aim to reduce greenhouse gas emissions, climate change is already happening, and we need to adapt to its impacts. Adaptation strategies involve taking actions to reduce the vulnerability of communities and ecosystems to climate change.
                         Importance of Climate Change Adaptation
