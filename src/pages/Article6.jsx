@@ -9,48 +9,66 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary driver of climate change, according to the scientific consensus?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Natural variations in Earth's climate", correct: false },
+                { text: "B. Human activities", correct: true },
+                { text: "C. Solar radiation", correct: false },
+                { text: "D. Volcanic eruptions", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following organizations has endorsed the scientific consensus on climate change?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. American Association for the Advancement of Science (AAAS)", correct: true },
+                { text: "B. Flat Earth Society", correct: false },
+                { text: "C. Tobacco Industry Research Group", correct: false },
+                { text: "D. Fossil Fuel Industry Association", correct: false }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "What is the primary role of scientists in addressing climate change?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. Spreading misinformation", correct: false },
+                { text: "B. Promoting fossil fuel use", correct: false },
+                { text: "C. Researching and developing solutions", correct: true },
+                { text: "D. Denying the existence of climate change", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "What is the primary goal of the Paris Agreement?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Increasing greenhouse gas emissions", correct: false },
+                { text: "B. Promoting fossil fuel use", correct: false },
+                { text: "C. Limiting global temperature increase to well below 2 degrees Celsius", correct: true },
+                { text: "D. Denying the existence of climate change", correct: false }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "Which of the following is NOT a challenge faced in implementing the Paris Agreement?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. Sufficient ambition in emissions reduction targets", correct: false },
+                { text: "B. Financial gap to support climate action", correct: false },
+                { text: "C. Lack of scientific consensus on climate change", correct: true },
+                { text: "D. Implementation challenges in individual countries", correct: false }
+            ]
+        },
+        {
+            question: "What is the primary purpose of national climate policies?",
+            answers: [
+                { text: "A. Promoting fossil fuel use", correct: false },
+                { text: "B. Denying the existence of climate change", correct: false },
+                { text: "C. Addressing climate change through various strategies", correct: true },
+                { text: "D. Increasing greenhouse gas emissions", correct: false }
+            ]
+        },
+        {
+            question: "Which of the following is NOT a potential benefit of corporate social responsibility (CSR) in addressing climate change?",
+            answers: [
+                { text: "A. Increased greenhouse gas emissions", correct: true },
+                { text: "B. Enhanced reputation and brand image", correct: false },
+                { text: "C. Improved relationships with stakeholders", correct: false },
+                { text: "D. Reduced environmental impact", correct: false }
             ]
         }
     ];
@@ -236,6 +254,12 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
+                                    <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        strategy
+                                    </span>
                                     <a href='https://climatekids.nasa.gov/coral-bleaching/' target='_blank'>Coral Bleaching</a>
                                 </li>
                                 <li>
@@ -249,12 +273,6 @@ const Article = () => {
                                         strategy
                                     </span>
                                     <a href='https://spaceplace.nasa.gov/ocean-currents/en/' target='_blank'>Flow with Ocean</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
                                 </li>
                             </ul>
 

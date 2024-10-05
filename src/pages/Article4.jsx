@@ -9,48 +9,57 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary goal of mitigation strategies in addressing climate change?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Adapting to the impacts of climate change", correct: false },
+                { text: "B. Reducing greenhouse gas emissions", correct: true },
+                { text: "C. Increasing renewable energy sources", correct: false },
+                { text: "D. Promoting sustainable development", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following is NOT a key source of greenhouse gas emissions?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. Deforestation", correct: false },
+                { text: "B. Renewable energy", correct: true },
+                { text: "C. Industrial processes", correct: false },
+                { text: "D. Agriculture", correct: false }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "What is the primary benefit of transitioning to renewable energy sources?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. Increasing dependence on fossil fuels", correct: false },
+                { text: "B. Reducing greenhouse gas emissions", correct: true },
+                { text: "C. Decreasing energy efficiency", correct: false },
+                { text: "D. Promoting deforestation", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "Which of the following is a challenge associated with carbon capture and storage (CCS) technology?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Low costs", correct: false },
+                { text: "B. Technological advancements", correct: false },
+                { text: "C. Environmental concerns", correct: true },
+                { text: "D. Increased greenhouse gas emissions", correct: false }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "How can sustainable land use practices help mitigate climate change?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. Increasing deforestation", correct: false },
+                { text: "B. Reducing carbon sequestration", correct: false },
+                { text: "C. Promoting soil erosion", correct: false },
+                { text: "D. Protecting forests and other natural ecosystems", correct: true }
+            ]
+        },
+        {
+            question: "Which of the following is NOT a key strategy for reducing greenhouse gas emissions from the transportation sector?",
+            answers: [
+                { text: "A. Promoting electric vehicles", correct: false },
+                { text: "B. Increasing reliance on fossil fuels", correct: true },
+                { text: "C. Encouraging public transportation", correct: false },
+                { text: "D. Promoting active transportation", correct: false }
             ]
         }
     ];

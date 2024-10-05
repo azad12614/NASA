@@ -9,48 +9,57 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary goal of climate action?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Increasing greenhouse gas emissions", correct: false },
+                { text: "B. Addressing climate change through individual, community, and collective efforts", correct: true },
+                { text: "C. Denying the existence of climate change", correct: false },
+                { text: "D. Promoting economic growth at any cost", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following is NOT a key strategy for reducing greenhouse gas emissions at the individual level?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. Conserving energy", correct: false },
+                { text: "B. Reducing waste generation", correct: false },
+                { text: "C. Increasing reliance on fossil fuels", correct: true },
+                { text: "D. Supporting renewable energy", correct: false }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "What is the primary benefit of community-based climate initiatives?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. Increasing greenhouse gas emissions", correct: false },
+                { text: "B. Promoting sustainable development and addressing climate change at the local level", correct: true },
+                { text: "C. Denying the existence of climate change", correct: false },
+                { text: "D. Reducing the role of individuals in climate action", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "Which of the following is NOT a strategy for raising awareness and influencing policy on climate change?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Public engagement", correct: false },
+                { text: "B. Media engagement", correct: false },
+                { text: "C. Lobbying", correct: false },
+                { text: "D. Denying the existence of climate change", correct: true }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "What is the primary role of governments in addressing climate change?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. Denying the existence of climate change", correct: false },
+                { text: "B. Promoting fossil fuel use", correct: false },
+                { text: "C. Developing and implementing policies to reduce greenhouse gas emissions and promote sustainable development", correct: true },
+                { text: "D. Increasing greenhouse gas emissions", correct: false }
+            ]
+        },
+        {
+            question: "Which of the following is NOT a key strategy for businesses to address climate change?",
+            answers: [
+                { text: "A. Reducing greenhouse gas emissions", correct: false },
+                { text: "B. Promoting sustainable practices", correct: false },
+                { text: "C. Denying the existence of climate change", correct: true },
+                { text: "D. Investing in renewable energy", correct: false }
             ]
         }
     ];
@@ -323,6 +332,12 @@ const Article = () => {
                                     <span class="material-symbols-outlined">
                                         strategy
                                     </span>
+                                    <a href='https://scied.ucar.edu/interactive/albedo-brightness' target='_blank'>Albedo</a>
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        strategy
+                                    </span>
                                     <a href='https://climatekids.nasa.gov/coral-bleaching/' target='_blank'>Coral Bleaching</a>
                                 </li>
                                 <li>
@@ -336,18 +351,6 @@ const Article = () => {
                                         strategy
                                     </span>
                                     <a href='https://spaceplace.nasa.gov/ocean-currents/en/' target='_blank'>Flow with Ocean</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://scied.ucar.edu/interactive/albedo-brightness' target='_blank'>Albedo</a>
-                                </li>
-                                <li>
-                                    <span class="material-symbols-outlined">
-                                        strategy
-                                    </span>
-                                    <a href='https://jeopardylabs.com/play/climate-change-quiz-game' target='_blank'>Quiz Game</a>
                                 </li>
                             </ul>
 

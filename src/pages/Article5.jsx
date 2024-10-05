@@ -9,48 +9,57 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary goal of adaptation strategies in addressing climate change?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Reducing greenhouse gas emissions", correct: false },
+                { text: "B. Adapting to the impacts of climate change", correct: true },
+                { text: "C. Increasing renewable energy sources", correct: false },
+                { text: "D. Promoting sustainable development", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following is NOT a key benefit of climate change adaptation?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. Reducing vulnerability to climate impacts", correct: false },
+                { text: "B. Protecting human health", correct: false },
+                { text: "C. Increasing greenhouse gas emissions", correct: true },
+                { text: "D. Ensuring economic resilience", correct: false }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "What is the primary purpose of early warning systems in climate change adaptation?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. Increasing greenhouse gas emissions", correct: false },
+                { text: "B. Reducing vulnerability to climate impacts", correct: false },
+                { text: "C. Providing timely alerts of impending hazards", correct: true },
+                { text: "D. Promoting sustainable development", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "Which of the following is NOT a key strategy for building resilience in communities?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Participatory planning", correct: false },
+                { text: "B. Early warning systems", correct: false },
+                { text: "C. Increasing greenhouse gas emissions", correct: true },
+                { text: "D. Community-based infrastructure", correct: false }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "What is the primary goal of climate-smart agriculture and forestry?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. Increasing greenhouse gas emissions", correct: false },
+                { text: "B. Reducing vulnerability to climate impacts", correct: false },
+                { text: "C. Ensuring the sustainability of agriculture and forestry in the face of climate change", correct: true },
+                { text: "D. Promoting sustainable development", correct: false }
+            ]
+        },
+        {
+            question: "Which of the following is NOT a key strategy for disaster risk reduction?",
+            answers: [
+                { text: "A. Early warning systems", correct: false },
+                { text: "B. Land use planning", correct: false },
+                { text: "C. Increasing greenhouse gas emissions", correct: true },
+                { text: "D. Community preparedness", correct: false }
             ]
         }
     ];

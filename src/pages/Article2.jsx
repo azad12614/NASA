@@ -9,48 +9,48 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary source of historical climate data that provides information about past atmospheric composition?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Temperature records", correct: false },
+                { text: "B. Ice cores", correct: true },
+                { text: "C. Tree rings", correct: false },
+                { text: "D. Satellite imagery", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following is NOT a key factor analyzed in ice cores to reconstruct past climates?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. Trapped air bubbles", correct: false },
+                { text: "B. Stable isotopes", correct: false },
+                { text: "C. Dust and volcanic ash", correct: false },
+                { text: "D. Ocean currents", correct: true }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "How do tree rings provide information about past climate conditions?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. By analyzing the color of the rings", correct: false },
+                { text: "B. By measuring the thickness of the rings", correct: true },
+                { text: "C. By counting the number of rings", correct: false },
+                { text: "D. By examining the texture of the rings", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "Which of the following is a limitation of using historical climate data?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Lack of data for certain regions", correct: true },
+                { text: "B. Accuracy of measurements", correct: false },
+                { text: "C. Availability of data", correct: false },
+                { text: "D. Relevance to current climate change", correct: false }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "What is the significance of historical climate data in understanding climate change?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. It provides a baseline for comparison with current climate conditions.", correct: false },
+                { text: "B. It helps identify natural climate variations.", correct: false },
+                { text: "C. It reveals the impact of human activities on the climate.", correct: false },
+                { text: "D. All of the above.", correct: true }
             ]
         }
     ];

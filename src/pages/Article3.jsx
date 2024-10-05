@@ -9,48 +9,57 @@ import { Link } from 'react-router-dom';
 const Article = () => {
     const questions = [
         {
-            question: "What is the primary difference between climate and weather?",
+            question: "What is the primary cause of sea level rise?",
             answers: [
-                { text: "A. Climate is a long-term pattern, while weather is a short-term condition.", correct: true },
-                { text: "B. Climate is influenced by human activities, while weather is not.", correct: false },
-                { text: "C. Climate is always changing, while weather remains constant.", correct: false },
-                { text: "D. Climate is measured in degrees, while weather is measured in inches.", correct: false }
+                { text: "A. Increased precipitation", correct: false },
+                { text: "B. Plate tectonics", correct: false },
+                { text: "C. Thermal expansion and melting of ice", correct: true },
+                { text: "D. Ocean currents", correct: false }
             ]
         },
         {
-            question: "Which of the following is the main cause of current climate change?",
+            question: "Which of the following is NOT a significant impact of rising sea levels?",
             answers: [
-                { text: "A. Volcanic eruptions", correct: false },
-                { text: "B. Changes in Earth's orbit", correct: false },
-                { text: "C. Human activities", correct: true },
-                { text: "D. Solar variations", correct: false }
+                { text: "A. Coastal erosion", correct: false },
+                { text: "B. Increased precipitation", correct: true },
+                { text: "C. Saltwater intrusion", correct: false },
+                { text: "D. Habitat loss", correct: false }
             ]
         },
         {
-            question: "What is the greenhouse effect?",
+            question: "What is the primary source of freshwater affected by saltwater intrusion due to rising sea levels?",
             answers: [
-                { text: "A. A natural process that keeps Earth warm", correct: true },
-                { text: "B. A human-made phenomenon that cools the planet", correct: false },
-                { text: "C. A weather pattern that occurs in tropical regions", correct: false },
-                { text: "D. A scientific theory about the Earth's age", correct: false }
+                { text: "A. Rivers", correct: false },
+                { text: "B. Lakes", correct: false },
+                { text: "C. Groundwater", correct: true },
+                { text: "D. Ocean currents", correct: false }
             ]
         },
         {
-            question: "Which of the following is a major consequence of climate change?",
+            question: "Which of the following coastal ecosystems is particularly vulnerable to rising sea levels?",
             answers: [
-                { text: "A. Rising sea levels", correct: true },
-                { text: "B. Decreasing temperatures", correct: false },
-                { text: "C. Fewer natural disasters", correct: false },
-                { text: "D. All of the above", correct: false }
+                { text: "A. Deserts", correct: false },
+                { text: "B. Forests", correct: false },
+                { text: "C. Wetlands", correct: true },
+                { text: "D. Grasslands", correct: false }
             ]
         },
         {
-            question: "What can individuals do to help reduce their carbon footprint?",
+            question: "What is the term used to describe the process of coastal land being lost due to erosion caused by rising sea levels?",
             answers: [
-                { text: "A. Drive less and walk or bike more often", correct: false },
-                { text: "B. Consume less meat and dairy", correct: false },
-                { text: "C. Use energy-efficient appliances", correct: false },
-                { text: "D. All of the above", correct: true }
+                { text: "A. Coastal retreat", correct: true },
+                { text: "B. Coastal subsidence", correct: false },
+                { text: "C. Coastal uplift", correct: false },
+                { text: "D. Coastal flooding", correct: false }
+            ]
+        },
+        {
+            question: "Which of the following countries is particularly vulnerable to the impacts of rising sea levels due to its low-lying geography?",
+            answers: [
+                { text: "A. Switzerland", correct: false },
+                { text: "B. Nepal", correct: false },
+                { text: "C. Bangladesh", correct: true },
+                { text: "D. Mongolia", correct: false }
             ]
         }
     ];
