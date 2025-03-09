@@ -1,0 +1,89 @@
+.goal {
+    background-color: var(--primary);
+}
+
+.goal-contain {
+    background: url('../assets/g13.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+    width: 98vw;
+    height: 100vh;
+
+    text-align: center;
+    align-content: center;
+}
+
+.goal-contain h2 {
+    /* background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnA2eXE2NWRhbm8zd285eWFhdWplZmNzc3d4OTQ1enB4ZDViZDFwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cWGuknwZUsxnlqm8ig/giphy.webp);
+    -webkit-text-fill-color: #00000042;
+    -webkit-text-stroke: 0px #0000004f;
+    text-shadow: -3px -3px 10px #ffffff0d, -3px -3px 3px #00000040;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-background-clip: text; */
+    color: var(--bright);
+    font-family: "poppins", cursive;
+    font-size: clamp(4rem, 10vw, 8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+
+}
+
+.goal-contain p {
+    color: var(--white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 1rem;
+}
+
+.goal h1 {
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-family: "Kaushan Script", cursive;
+    font-size: clamp(4rem, 10vw, 6rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.goal ul {
+    background-color: var(--white);
+    padding-inline: auto;
+}
+
+.goal ul li {
+    color: var(--black);
+    width: clamp(320px, 90vw, 1080px);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-block: 0.5rem;
+    margin-inline: auto;
+}
+
+.goal ul li span {
+    color: var(--secondary);
+    background-color: var(--bg);
+    border: 0.2rem solid var(--secondary);
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+.goal ul li strong {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-weight: bolder;
+}

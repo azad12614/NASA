@@ -2,50 +2,107 @@ import { Link } from "react-router-dom";
 import React from "react";
 import CA from "../assets/fav.png";
 import "./Footer.css";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaLinkedin,
+  FaYoutube,
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaLeaf,
+} from "react-icons/fa";
 
 function Footer() {
   return (
     <footer id="footer">
-      <Link to="/">
-        <img id="footer_logo" src={CA} loading="lazy" />
-      </Link>
-      <h1>Learn4Climate</h1>
-      <h2>Made by Team Xtraterrestrials</h2>
-      {/* <div class="social">
+      <div className="footer-container">
+        {/* Logo and Tagline Section */}
+        <div className="footer-logo-section">
+          <Link to="/">
+            <img
+              id="footer_logo"
+              src={CA}
+              alt="Learn4Climate Logo"
+              loading="lazy"
+            />
+          </Link>
+          <h1>Learn4Climate</h1>
+          <p>Empowering the world to fight climate change.</p>
+          <div className="footer-tagline">
+            <FaLeaf size={20} />
+            <span>
+              Made by Team Xtraterrestrials for NASA Space Apps Challenge
+            </span>
+          </div>
+        </div>
+
+        {/* Social Media Section */}
+        <div className="footer-social-section">
+          <h3>Connect With Us</h3>
+          <div className="social-icons">
             <a
-              href="https://www.google.com/maps/place/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95+%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%80+%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F+%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE/@22.4965971,91.7210784,17z/data=!3m1!4b1!4m6!3m5!1s0x30ad2777a615585d:0xdcf908f6e4f3a713!8m2!3d22.4965971!4d91.7210784!16zL20vMDkwejU0?entry=ttu"
+              href="https://www.google.com/maps/place/your-location"
               target="_blank"
-              class="contact-icon"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="Location"
             >
-              <FaMapMarkerAlt size={30} />
+              <FaMapMarkerAlt size={24} />
             </a>
             <a
-              href="https://www.facebook.com/iiuc.ac.bd/"
+              href="https://www.facebook.com/your-page"
               target="_blank"
-              class="contact-icon"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="Facebook"
             >
-              <FaFacebook size={30} />
+              <FaFacebook size={24} />
             </a>
             <a
-              href="https://www.youtube.com/@internationalislamicuniver5603"
+              href="https://www.youtube.com/your-channel"
               target="_blank"
-              class="contact-icon"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="YouTube"
             >
-              <FaYoutube size={30} />
+              <FaYoutube size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/company/iiuctg"
+              href="https://www.linkedin.com/your-company"
               target="_blank"
-              class="contact-icon"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="LinkedIn"
             >
-              <FaLinkedin size={30} />
+              <FaLinkedin size={24} />
             </a>
-          </div> */}
-      <h3>2024 © All Rights Reserved</h3>
+            <a
+              href="https://www.instagram.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="Instagram"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a
+              href="https://www.twitter.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="Twitter"
+            >
+              <FaTwitter size={24} />
+            </a>
+          </div>
+        </div>
+
+        {/* Legal Section */}
+        <div className="footer-legal-section">
+          <p>© 2024 Learn4Climate. All Rights Reserved.</p>
+          <p>Part of the NASA Space Apps Challenge.</p>
+        </div>
+      </div>
     </footer>
   );
 }

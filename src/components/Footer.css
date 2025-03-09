@@ -1,120 +1,128 @@
-@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
-
-:root {
-    --m: 2rem;
+#footer {
+  background: linear-gradient(
+    135deg,
+    #1e3c32,
+    #2c5545
+  ); /* Nature-inspired gradient */
+  color: #e0f7fa; /* Light cyan text for contrast */
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #4caf50; /* Green border for a natural touch */
 }
 
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-footer {
-    background: url('https://i854.photobucket.com/albums/ab109/lacilu22/NATURE.gif');
-    background-size: cover;
-
-
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    position: relative;
-
-    padding: 1rem;
-
-    /* background: #d4d4d4;
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px); */
-}
-
-footer p,
-footer p a {
-    font-style: italic;
-    font-weight: 500;
-    font-size: calc(0.55 * var(--m));
-    margin: 0;
-}
-
-footer h1 {
-    font-family: "Jost", sans-serif;
-    color: var(--secondary);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: calc(0.8 * var(--m));
-    margin: 0;
-    padding-bottom: 0.3rem;
-}
-
-footer h2 {
-    font-family: 'Luckiest Guy', cursive;
-    color: var(--black);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: calc(0.6 * var(--m));
-    margin: 0;
-}
-
-footer h3 {
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--black);
-    font-weight: bold;
-    font-size: calc(0.5 * var(--m));
-    margin: 0;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 #footer_logo {
-    height: calc(4 * var(--m));
-    filter: brightness(50%);
-    margin-right: 1rem;
+  width: 120px;
+  height: auto;
+  /* border-radius: 50%;  */
+  /* Circular logo for a modern look */
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  */
+  /* Soft shadow */
 }
 
-footer img {
-    height: calc(0.7 * var(--m));
-    object-fit: cover;
+.footer-logo-section h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #e0f7fa; /* Light cyan */
 }
 
-footer .social {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+.footer-logo-section p {
+  font-size: 16px;
+  margin: 0;
+  color: #a5d6a7; /* Light green */
 }
 
-footer .links {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
+.footer-tagline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #81c784; /* Medium green */
 }
 
-footer a {
-    text-decoration: none;
-    color: inherit;
+.footer-tagline svg {
+  color: #4caf50; /* Green icon */
 }
 
-@media screen and (max-width: 1080px) {
-    :root {
-        --m: 2rem;
-    }
+.footer-social-section {
+  margin-top: 20px;
+}
 
-    footer {
-        flex-direction: column;
-        padding: 1rem;
-        align-items: center;
-        text-align: center;
-        gap: 0.5rem;
-    }
+.footer-social-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #e0f7fa; /* Light cyan */
+}
 
-    footer h3 {
-        margin: 0;
-    }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
-    footer .social {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-    }
+.social-icon {
+  color: #e0f7fa; /* Light cyan */
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #4caf50; /* Green on hover */
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.footer-legal-section {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #81c784; /* Medium green */
+}
+
+.footer-legal-section p {
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    gap: 20px;
+  }
+
+  .footer-logo-section h1 {
+    font-size: 24px;
+  }
+
+  .footer-logo-section p {
+    font-size: 14px;
+  }
+
+  .footer-tagline {
+    font-size: 12px;
+  }
+
+  .footer-social-section h3 {
+    font-size: 18px;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+
+  .footer-legal-section {
+    font-size: 12px;
+  }
 }

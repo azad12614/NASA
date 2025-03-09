@@ -1,146 +1,171 @@
 .lesson {
-    width: 60vw;
-    height: max-content;
-    margin-block: 2rem;
-    margin-inline: 20vw;
-    text-align: start;
+  --primary: #1e3c32; /* Dark green */
+  --secondary: #4caf50; /* Green */
+  --bright: #81c784; /* Light green */
+  --text: #e0f7fa; /* Light cyan */
+  --white: #ffffff; /* White */
+  --black: #2c3e50; /* Dark text */
+  --highlight: #2c5545; /* Gradient green */
+
+  width: 60vw;
+  height: max-content;
+  margin-block: 2rem;
+  margin-inline: 20vw;
+  text-align: start;
+  color: var(--black);
 }
 
 .lesson h1 {
-    font-family: "Jost", sans-serif;
-    font-weight: bold;
-    color: var(--bright);
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: -0.5px;
-    line-height: 1;
-    padding-bottom: 0.5rem;
-    /* text-align: center; */
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  color: var(--bright); /* Light green */
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  padding-bottom: 0.5rem;
 }
 
 .lesson p {
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--black);
-    font-size: 1.25rem;
-    line-height: 1.2;
-    padding-bottom: 0.5rem;
-    text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--black);
+  font-size: 1.25rem;
+  line-height: 1.6;
+  padding-bottom: 0.5rem;
+  text-align: justify;
 }
 
 .lesson p strong {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary); /* Green */
 }
 
 .lesson .ca13 {
-    float: left;
-    width: 18rem;
-    height: 8rem;
+  float: left;
+  width: 18rem;
+  height: 8rem;
 
-    shape-outside: url(../assets/ca13.png);
-    shape-margin: 0.6rem;
+  shape-outside: url(../assets/ca13.png);
+  shape-margin: 0.6rem;
 }
 
 .lesson .g13 {
-    float: right;
-    width: 16rem;
-    height: 10rem;
+  float: right;
+  width: 16rem;
+  height: 10rem;
 
-    shape-outside: url(../assets/g13.png);
-    shape-margin: 0.6rem;
-    margin-left: 1rem;
+  shape-outside: url(../assets/g13.png);
+  shape-margin: 0.6rem;
+  margin-left: 1rem;
 
-    display: none;
+  display: none;
 }
 
 .box {
-    float: right;
-    max-width: 540px;
-    shape-outside: inset(10px 10px 10px 10px 10px);
-    margin: 1rem;
-    margin-top: -0.5rem;
-    margin-right: -0.5rem;
+  float: right;
+  max-width: 540px;
+  shape-outside: inset(10px 10px 10px 10px 10px);
+  margin: 1rem;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
 }
 
-a {
-    color: #575757;
+.neo-video-player {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
-a:hover {
-    color: #FD9644;
-    text-decoration: none;
+.neo-video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
 }
 
 .main {
-    color: #FD9644;
-    opacity: 0.2;
-    font-weight: 900;
-    margin-bottom: -0.8rem;
+  color: var(--secondary); /* Green */
+  opacity: 0.2;
+  font-weight: 900;
+  margin-bottom: -0.8rem;
 }
 
+/* Responsive Design */
 @media (max-width: 1080px) {
-    .lesson {
-        width: 80vw;
-        margin-inline: 10vw;
-    }
+  .lesson {
+    width: 80vw;
+    margin-inline: 10vw;
+  }
 
-    .lesson .ca13 {
-        float: left;
-        margin-top: 2rem;
-    }
+  .lesson .ca13 {
+    float: left;
+    margin-top: 2rem;
+  }
 
-    .lesson .g13 {
-        display: block;
-        width: 16rem;
-        height: 10rem;
-        float: right;
-        margin-top: 6rem;
-    }
+  .lesson .g13 {
+    display: block;
+    width: 16rem;
+    height: 10rem;
+    float: right;
+    margin-top: 15rem;
+  }
 
-    .box {
-        float: left;
-        margin: 1rem;
-        margin-top: 0rem;
-    }
+  .box {
+    float: left;
+    margin: 1rem;
+    margin-top: 0rem;
+  }
 
-    .lesson p {
-        padding-top: 4rem;
-    }
+  .lesson p {
+    padding-top: 4rem;
+  }
 }
 
 @media (max-width: 798px) {
-    .lesson {
-        width: 88vw;
-        margin-inline: 6vw;
-    }
+  .lesson {
+    width: 88vw;
+    margin-inline: 6vw;
+  }
 
-    .lesson .g13 {
-        float: right;
-        margin-top: 10rem;
-    }
+  .lesson .g13 {
+    float: right;
+    margin-top: 10rem;
+  }
 }
 
-
 @media (max-width: 520px) {
-    .lesson {
-        width: 94vw;
-        margin-inline: 3vw;
-    }
+  .lesson {
+    width: 94vw;
+    margin-inline: 3vw;
+  }
 
-    .lesson .ca13 {
-        width: 10rem;
-        height: 5rem;
-    }
+  .lesson .ca13 {
+    width: 10rem;
+    height: 5rem;
+    margin-right: 1rem;
+  }
 
-    .lesson .g13 {
-        width: 10rem;
-        height: 5rem;
-        margin-top: 20rem;
-    }
+  .lesson .g13 {
+    width: 10rem;
+    height: 5rem;
+    margin-top: 20rem;
+  }
 
-    .box {
-        shape-outside: inset(100vw 56vw 100vw 56vw 10px);
-        margin: 0;
-        margin-bottom: 1rem;
-    }
+  .box {
+    shape-outside: inset(100vw 56vw 100vw 56vw 10px);
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .neo-video-player {
+    width: 94vw;
+    margin: 0;
+  }
 }
